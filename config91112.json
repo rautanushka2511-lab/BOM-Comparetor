@@ -1,0 +1,939 @@
+{
+  "lengths": {
+    "14": {
+      "segments": [
+        {
+          "name": "Project Code",
+          "start": 0,
+          "end": 4,
+          "lookup": "project_numbers"
+        },
+        {
+          "name": "Sub Module Code",
+          "start": 4,
+          "end": 9
+        },
+        {
+          "name": "Part Number",
+          "start": 9,
+          "end": 14
+        }
+      ]
+    },
+    "12": {
+      "segments": [
+        {
+          "name": "Project Number",
+          "start": 0,
+          "end": 4,
+          "lookup": "project_numbers"
+        },
+        {
+          "name": "Design Group",
+          "start": 4,
+          "end": 6,
+          "lookup": "design_groups"
+        },
+        {
+          "name": "Design Subgroup",
+          "start": 6,
+          "end": 8,
+          "lookup": "design_subgroups"
+        },
+        {
+          "name": "Part Designation",
+          "start": 8,
+          "end": 10,
+          "lookup": "part_designations"
+        },
+        {
+          "name": "Serial Number",
+          "start": 10,
+          "end": 12
+        }
+      ]
+    },
+    "11": {
+      "segments": [
+        {
+          "name": "Major Group",
+          "start": 0,
+          "end": 1,
+          "lookup": "major_groups"
+        },
+        {
+          "name": "Item Code",
+          "start": 1,
+          "end": 10
+        },
+        {
+          "name": "Check Digit",
+          "start": 10,
+          "end": 11
+        }
+      ]
+    },
+    "9": {
+      "segments": [
+        {
+          "name": "Project Number",
+          "start": 0,
+          "end": 4,
+          "description": "Identifies the vehicle or aggregate"
+        },
+        {
+          "name": "Version",
+          "start": 4,
+          "end": 6,
+          "description": "Two-digit serial number for vehicle version"
+        },
+        {
+          "name": "Wheelbase",
+          "start": 6,
+          "end": 8,
+          "description": "Rounded first two digits of wheelbase"
+        },
+        {
+          "name": "Drive Type",
+          "start": 8,
+          "end": 9,
+          "description": "R for RHD, L for LHD"
+        }
+      ]
+    }
+  },
+  "semantic_threshold": 0.85,
+  "replace_threshold": 0.65,
+  "root_replace_threshold": 0.30,
+  "weights": {
+    "description": 0.6,
+    "segments": 0.4
+  },
+  "lookups": {
+    "project_numbers": {
+      "1001": "Auto Division (JSR) - Deviation Drawings (Not for future use)",
+      "1005-1008": "ERC (JSR) - Dumpers, Tippers (Not for future use)",
+      "2050": "Production Deviation Drawings",
+      "2051-2099": "Production Drawings",
+      "2150-2250": "ERC JSR (some transferred to ERC Pune)",
+      "1315": "TECH SERVICES (LKO) - Dummy Part Nos.",
+      "1316": "TECH SERVICES (LKO) - Dummy Part Nos.",
+      "1318": "TECH SERVICES (LKO) - Dummy Part Nos.",
+      "2025": "TECH SERVICES (LKO) - Deviation Drawings",
+      "4000-4100": "ERC (LKO) - FBV Design",
+      "4101-4200": "ERC (LKO) - ERC Design",
+      "2001": "ERC (PUNE) - Production Deviation Drawings",
+      "2000-2049": "ERC (PUNE) - Production Drawings (except 2001, 2025 & 2590)",
+      "2111-2149": "ERC (PUNE) - Production Drawings",
+      "2251-2899": "ERC (PUNE) - Extended Range",
+      "5001-5999": "ERC (PUNE) - Extended Range",
+      "2900-2999": "Special Numbering System (TS 11825) - except 2900, 2910",
+      "3500-3510": "Cab Production Drawings (Not for new designs)",
+      "9001-9010": "TMETC (UK) - Concept and Proposal Parts",
+      "9011-9020": "TRILIX (UK) - Concept and Proposal Parts",
+      "9990-9999": "STANDARDS-1 (PUNE) - Dummy Part Numbers",
+      "2590": "Reserved for Technical Specifications (TS 11832)",
+      "2604": "Transferred from ERC Pune to ERC JSR",
+      "2610": "Transferred from ERC Pune to ERC JSR",
+      "2612": "Transferred from ERC Pune to ERC JSR",
+      "2614": "Transferred from ERC Pune to ERC JSR",
+      "2618": "Transferred from ERC Pune to ERC JSR",
+      "2621": "Transferred from ERC Pune to ERC JSR",
+      "2622": "Transferred from ERC Pune to ERC JSR",
+      "2623": "Transferred from ERC Pune to ERC JSR",
+      "2636": "Transferred from ERC Pune to ERC JSR",
+      "2637": "Transferred from ERC Pune to ERC JSR",
+      "2642": "Transferred from ERC Pune to ERC JSR",
+      "2646": "Transferred from ERC Pune to ERC JSR",
+      "2648": "Transferred from ERC Pune to ERC JSR",
+      "2670": "Transferred from ERC Pune to ERC JSR",
+      "2672": "Transferred from ERC Pune to ERC JSR",
+      "2676": "Transferred from ERC Pune to ERC JSR",
+      "2750": "Transferred from ERC Pune to ERC JSR",
+      "5011": "Transferred from ERC Pune to ERC JSR",
+      "2153": "Transferred from ERC JSR to ERC Pune",
+      "2159": "Transferred from ERC JSR to ERC Pune",
+      "2185": "Transferred from ERC JSR to ERC Pune",
+      "2190": "Transferred from ERC JSR to ERC Pune",
+      "1111": "Reserved for ERC-Standardization (Do not create in PLM)"
+    },
+    "design_groups": {
+      "00": "GENERAL ASSY.COMPLETE",
+      "01": "ENGINE HOUSING",
+      "03": "DRIVE PARTS",
+      "05": "ENGINE TIMING",
+      "07": "FUEL INJECTION EQUIPMENT",
+      "09": "FUEL FEED & CHARGING PUMP",
+      "13": "AIR COMPRESSOR",
+      "14": "MANIFOLD AND TURBO CHARGER",
+      "15": "ENGINE ELECTRICAL EQUIPMENT",
+      "16": "ELECTRONIC MANAGEMENT SYSTEM",
+      "18": "OIL PUMP AND LUBRICATING LINES",
+      "20": "ENGINE COOLING",
+      "21": "REMOTE MOUNTED ENGINE ITEMS",
+      "22": "ENGINE ACCESSORIES AND SUSPENSION",
+      "23": "SPECIAL INSTALLATIONS",
+      "24": "ENGINE SUSPENSION ON CHASSIS",
+      "25": "CLUTCH",
+      "26": "GEAR BOX",
+      "28": "AUXILIARY GEAR BOX",
+      "29": "PEDAL LEVERS - ",
+      "30": "CONTROLS - Accelerator",
+      "31": "FRAME",
+      "32": "SPRINGS AND SUSPENSION",
+      "33": "FRONT AXLES",
+      "35": "REAR AXLE",
+      "39": "SHORT & DEAD AXLES(OR RUNNING AXLE)",
+      "40": "WHEELS AND TYRES",
+      "41": "PROPELLER SHAFT",
+      "42": "BRAKES-HYDRAULIC PORTION",
+      "43": "BRAKES-PNEUMATIC PORTION",
+      "45": "PNEUMATIC SYSTEM",
+      "46": "STEERING",
+      "47": "FUEL SYSTEM",
+      "49": "EXHAUST",
+      "50": "RADIATOR AND FITMENTS",
+      "55": "MASCOT",
+      "58": "TOOLS AND ACCESSORIES / CAB NUMBER PLATE / MANUFACTURER'S PLATE",
+      "60": "BODY",
+      "61": "SUB-STRUCTURE",
+      "62": "FRONT WALLS",
+      "63": "SIDE WALLS",
+      "64": "REAR WALLS",
+      "65": "ROOF",
+      "66": "BULT-IN BOXES",
+      "67": "WINDOWS",
+      "68": "LINING AND PANELLINGS",
+      "69": "LINING AND PANELLINGS(CONTD)",
+      "70": "LOAD BODY & ITS MOUNTINGS",
+      "72": "SIDE DOOR FRONT",
+      "73": "SIDE DOOR REAR",
+      "74": "TAIL GATE",
+      "75": "EXTERNAL FLAPS",
+      "81": "EQUIPMENT & INTERNAL FITTINGS",
+      "82": "ELECTRICAL EQUIPMENTS",
+      "83": "VENTILATION, HEATING AND A/C",
+      "88": "FENDER ENGINE HOOD BUMPER ETC",
+      "89": "BODY MOUNTING & ACCESSORIES",
+      "91": "FRONT SEAT",
+      "92": "REAR AND BENCH SEAT",
+      "93": "CENTRE AND FOLDING SEAT",
+      "94": "CO-DRIVER SEAT",
+      "97": "SEAT ACCESSORIES",
+      "98": "MISCELLANEOUS"
+
+    },
+    "design_subgroups": {
+      "00": {
+        "H1A01": "ENGINE ASSY ",
+        "H9Z01": "ENGINE ASSY WITH GB-MFG",
+        "H9Z02": "ENGINE WITH CLUTCH-MFG"
+      },
+      "01": {
+        "H1A02": "ENGINE STRUCTURE-BLOCK,HEAD"
+      },
+      "03": {
+        "H1A03": "DRIVE PARTS-CRANK TRAIN SYSTEM"
+      },
+      "05": {
+        "H1A04": "VALVE TRAIN SYSTEM/TIMING DRIVE"
+      },
+      "07": {
+        "H1A05": "FUEL INJ AND COMBUSTION SYS-PETROL,CNG"
+      },
+      "09": {
+        "H1A06": "AIR INTAKE,BREATHING SYSTEM-ENG MOUNTED"
+      },
+      "13": {
+        "H1A07": "ENGINE MOUNTED AIR COMPRESSOR"
+      },
+      "14": {
+        "H1A08": "EGR AND BOOSTING SYS,VALVE/COOLER/TURBO"
+      },
+      "15": {
+        "G1C04": "ALTERNATOR",
+        "G1C05": "STARTER MOTOR",
+        "H1A09": "SENSORS/ACTUATORS/AUX DRIVE SYSTEM-FEED"
+      },
+      "16": {
+        "H1A16": "EMS CALIBRATION CONTROL-DIESEL/PETROL",
+        "K2A01": "CALIBRATION RELEASES"
+      },
+      "18": {
+        "H1A10": "LUBRICATION SYSTEM-OIL PUMP,FILTER ETC"
+      },
+      "20": {
+        "H1A11": "COOLING SYSTEM,BASE ENGINE"
+      },
+      "21": {
+        "H1A15": "AIR INTAKE SYSTEM-VEH LEVEL/REMOTE MTG"
+      },
+      "22": {
+        "H1A12": "ENG OIL,MOUNTS,LIFT HOOK,NUMBER PLATE"
+      },
+      "23": {
+        "H1A13": "AC COMPR,POWER STEERING PUMP BRACKET"
+      },
+      "24": {
+        "F3C01": "FRONT ENGINE MOUNT",
+        "F3C02": "REAR ENGINE MOUNT",
+        "F3C03": "POWERTRAIN SIDE ENGINE MOUNT BRACKET",
+        "F3C04": "CHASSIS SIDE ENGINE MOUNT BRACKET",
+        "F3C05": "AUX MOUNT-ROLL ARRESTOR,DAMPER ETC",
+        "F3C06": "AUXILIARY MOUNT BRACKET",
+        "F3C07": "ENGINE MOUNTING-INFO FIT DRG"
+      },
+      "25": {
+        "H2A01": "BASE CLUTCH",
+        "H2A02": "CLUTCH RELEASE SYSTEM "
+      },
+      "26": {
+        "H2C01": "GEARBOX ",
+        "H2C02": "GEAR SHIFT SYSTEM ",
+        "H2F01": "BASE TRANSAXLEAND CV SHAFTS",
+        "H2F02": "GEAR SHIFT SYSTEM",
+        "H9Y01": "GEAR BOX ASSY,SINGLE-MFG",
+        "H9Y02": "TRANSAXLE ASSY,SINGLE-MFG"
+      },
+      "28": {
+        "H2E01": "BASE TRANSFER CASE",
+        "H2E02": "TRANSFER SHIFT MECHANISM"
+      },
+      "29": {
+        "F1E01": "BRAKE PEDAL ASSY",
+        "F1E02": "CLUTCH PEDAL ASSY",
+        "F1E03": "CLUTCH CABLE/HIGH PRESSURE PIPING",
+        "F1E04": "VACUUM BOOSTER/CLUTCH MASTER CYLINDER",
+        "F1E05": "CLUTCH BOOSTER/SLAVE CYLINDER",
+        "F1E06": "CLUTCH RESERVOIR & LOW PRESSURE PIPING ",
+        "F1E07": "CLUTCH-BRAKE PEDAL-INFO FIT DRG"
+      },
+      "30": {
+        "F1E08": "ACCELERATOR PEDAL ASSY-APM",
+        "F1E09": "ACCELERATOR PEDAL-INFO FIT DRG"
+      },
+      "31": {
+        "F1A01": "FRAME ASSY",
+        "F1A02": "FRONT UNDER-RUN PROTECTION DEVICE",
+        "F1A03": "REAR UNDER-RUN PROTECTION DEVICE",
+        "F1A04": "BATTERY CARRIER",
+        "F1A05": "TOW HOOK",
+        "F9Y01": "PAINTED FRAME WITH FITMENT-MFG"
+      },
+      "33": {
+        "F2A01": "AXLE BEAM",
+        "F2A02": "STUB AXLE ASSY",
+        "F2A03": "STEERING ARM",
+        "F2A04": "HUB ASSY",
+        "F2A05": "TIEROD ASSY AND TIEROD ARM",
+        "F2A06": "FRONT AXLE-INFO FIT DRG",
+        "F2D01": "KIT-LIFT AXLE",
+        "F2D02": "LINKAGES",
+        "F2D03": "PNEUMATIC CIRCUIT",
+        "F2D04": "MAIN BELLOW",
+        "F2D05": "LIFT BELLOW",
+        "F2D06": "BUSH AND STRAPS",
+        "H2B01": "FRONT LIVE AXLE W/O BRAKES",
+        "H2B02": "FRONT LIVE AXLE WITH BRAKES",
+        "H9X01": "LIVE FRONT AXLE ASSY WITH BRAKES-MFG ",
+        "H9X02": "FRONT AXLE ASSY WITH BRAKES-MFG",
+        "H9X03": "KIT-LIFT AXLE ASSY WITH BRAKES-MFG"
+      },
+      "35": {
+        "H2D01": "REAR LIVE AXLE W/O BRAKES",
+        "H2D03": "REAR LIVE AXLE WITH BRAKES",
+        "H9W01": "LIVE REAR AXLE ASSY WITH BRAKES-MFG"
+      },
+      "39": {
+        "H2D02": "DEAD AXLE W/O BRAKES",
+        "H9W02": "DEAD REAR AXLE ASSY WITH BRAKES-MFG"
+      },
+      "40": {
+        "F5B01": "TYRE AND RIM ASSY",
+        "F5B02": "WHEEL MOUNTING",
+        "F5B03": "SPARE WHEEL MOUNTING",
+        "F5B04": "LABEL,TYRE PRESSURE INSTRUCTION"
+      },
+      "41": {
+        "F2C01": "PROPELLER SHAFT ASSY",
+        "F2C02": "CENTRE BEARING MOUTING BRACKET",
+        "F2C03": "GUARD",
+        "F2C04": "TORSIONAL VIBRATION DAMPER",
+        "F2C05": "PROPELLER SHAFT-INFO FIT DRG"
+      },
+      "42": {
+        "F5A01": "FRONT FORWARD AXLE FOUNDATION BRAKE",
+        "F5A02": "FRONT REARWARD AXLE FOUNDATION BRAKE",
+        "F5A03": "PUSHER LIFT AXLE FOUNDATION BRAKE",
+        "F5A04": "REAR FORWARD AXLE FOUNDATION BRAKE",
+        "F5A05": "REAR REARWARD AXLE FOUNDATION BRAKE",
+        "F5A06": "TAG LIFT AXLE FOUNDATION BRAKE "
+      },
+      "43": {
+        "F5A07": "AIR TANK ASSY",
+        "F5A08": "BRAKE CONTROL ASSY",
+        "F5A09": "PARKING BRAKE ACTUATION ASSY",
+        "F5A10": "BRAKE MODULATOR UNIT",
+        "F5A11": "BRAKE VALVE ASSY",
+        "F5A12": "ADDITIONAL VALVE ASSY",
+        "F5A13": "TRAILER VALVE ASSY",
+        "F5A14": "LOAD SENSING VALVE ASSY",
+        "F5A15": "BRAKE CHAMBER ASSY",
+        "F5A16": "SPRING BRAKE ACTUATOR ASSY",
+        "F5A17": "AIR PROCESSING UNIT ASSY",
+        "F5A18": "AIR COMPRESSOR ASSY/VACCUM PUMP ASSY",
+        "F5A19": "METAL PIPE ASSY WITH CLAMPS",
+        "F5A20": "PIPE CLAMPS AND HOSES ASSY-CHASSIS",
+        "F5A21": "PIPE CLAMPS AND HOSES ASSY-CABIN",
+        "F5A22": "AUXILIARY BRAKE ASSY",
+        "F5A23": "TRANSFER LABEL",
+        "F5A24": "PARKING BRAKE CABLES ASSY",
+        "F5A25": "RESERVOIR ASSY WITH BRAKE FLUID",
+        "F5A26": "TRANSMISSON MOUNTED PARKING BRAKE",
+        "F5A27": "VACUUM TANK AND PIPING",
+        "F5A28": "BRAKING SYSTEM-INFO FIT DRG"
+      },
+      "45": {
+        "F1C01": "BREATHER HOSE",
+        "F1C02": "PTO PIPING",
+        "F1C03": "TIPPING PIPING",
+        "F1C04": "INTERAXLE AND DIFFLOCK PIPING",
+        "F1C05": "PNEUMATIC SYSTEM-INFO FIT DRG"
+      },
+      "46": {
+        "F2B01": "STEERING COLUMN",
+        "F2B02": "INTERMEDIATE SHAFT",
+        "F2B03": "RUBBER BELLOW ASSY",
+        "F2B04": "STEERING GEAR",
+        "F2B05": "STEERING BRACKET ASSY",
+        "F2B06": "PITMAN ARM",
+        "F2B07": "DRAGLINK ",
+        "F2B08": "STEERING PUMP",
+        "F2B09": "HYDRAULIC PIPING",
+        "F2B10": "STEERING RESERVOIR",
+        "F2B11": "POWER CYLINDER",
+        "F2B12": "ADDITIONAL LINKAGES",
+        "F2B13": "STEERING SYSTEM-INFO FIT DRG"
+      },
+      "47": {
+        "F3A01": "FUEL TANK/AUXILIARY FUEL TANK ASSY",
+        "F3A02": "FUEL TANK MOUNTING BRACKET ASSY ",
+        "F3A03": "SUCTION AND RETURN FUEL LINE ASSY",
+        "F3A04": "FUEL FILTER MOUNTING BRACKET ASSY",
+        "F3A05": "CANISTER ASSY",
+        "F3A06": "PURGE VALVE ASSY AND MOUNTING",
+        "F3A07": "ELECTRIC FEED PUMP ASSY",
+        "F3A08": "HEAT SHIELD FUEL TANK AND STONE GUARD",
+        "F3A09": "CNG CYL AND AUX CYL ASSY WITH MTG BKT",
+        "F3A10": "CNG FILLING UNIT ASSY WITH MTG BKT",
+        "F3A11": "HIGH PRESSURE FILTER ASSY",
+        "F3A12": "LOW PRESSURE FILTER ASSY",
+        "F3A13": "HP CNG TUBE ASSY WITH MTG CLAMPS",
+        "F3A14": "HP REGULATOR ASSY WITH MTG BKT",
+        "F3A15": "HP REG COOLANT HOSE,LP CNG TUBE ASSY",
+        "F3A16": "KIT-VENT TUBE ASSY,VENT WITH MTG CLAMP",
+        "F3A17": "CONNECTORS",
+        "F3A18": "COMPLIANCE PLATE AND CNG STICKERS",
+        "F3A19": "HEAT SHIELD WITH BRACKET",
+        "F3A20": "FUEL SYSTEM-INFO FIT DRG",
+        "H3B03": "HYDROGEN STORAGE AND DELIVERY SYSTEM",
+        "H3B05": "HYDROGEN SAFETY SYSTEM"
+      },
+      "49": {
+        "F3B01": "SILENCER ASSY",
+        "F3B02": "UREA TANK AND MOUNTING ASSY",
+        "F3B03": "KIT-EGP,ATS AND PROTECTIVE SHIELD",
+        "F3B04": "GASKET",
+        "F3B05": "EXHAUST PIPE ASSY AND MOUNTING",
+        "F3B06": "TAIL PIPE ASSY AND MOUNTING",
+        "F3B07": "KIT-UREA LINE",
+        "F3B08": "SUPPLY MODULE MOUNTING",
+        "F3B09": "KIT-HEAT SHIELD",
+        "F3B10": "KIT-HYDRO CARBON INJECTION",
+        "F3B11": "KIT-EXHAUST SYSTEM",
+        "F3B12": "EXHAUST SYSTEM-INFO FIT DRG"
+      },
+      "50": {
+        "H1A14": "COOLING SYSTEM-VEHICLE LEVEL"
+      },
+      "54": {
+        "G1A01": "WH DASHBOARD ",
+        "G1A02": "WH FLOOR/ROOF /DOOR",
+        "G1A03": "WH ENGINE-SENSOR",
+        "G1A04": "WH ENGINE-POWER CONNECTION",
+        "G1A05": "WH FRAME/FRONT CHASSIS ",
+        "G1A06": "WH TAIL/REAR CHASSIS ",
+        "G1A07": "WH GEAR BOX ",
+        "G1A08": "WH ABS",
+        "G1A09": "WH RPAS ",
+        "G1A10": "WH DOSING/AFT ",
+        "G1A11": "WH EGP ",
+        "G1A12": "WH BATTERY CABLES POSITIVE/NEGATIVE",
+        "G1A13": "WH BATTERY COMPARTMENT",
+        "G1A14": "WH BUS BODY/LOAD BODY",
+        "G1B01": "FUEL LEVEL SENSOR",
+        "G1B02": "AUDIBLE WARNING SYSTEM",
+        "G1B03": "NON CABIN SWITCHES",
+        "G1B04": "DASHBOARD SWITCHES",
+        "G1B05": "NON DASHBOARD SWITCHES",
+        "G1B06": "STEERING SYSTEM SWITCHES",
+        "G1C01": "BATTERY",
+        "G1C02": "WIPER MOTOR",
+        "G1C03": "KIT-WASHER SYSTEM",
+        "G2A01": "HEAD LAMP",
+        "G2A02": "FOG LAMP ",
+        "G2A03": "TURN INDICATOR",
+        "G2A04": "DAY TIME RUNNING LAMP",
+        "G2A05": "REFLEX REFLECTOR",
+        "G2A06": "SIDE INDICATOR",
+        "G2A07": "SIDE MARKER LAMP",
+        "G2A08": "COMBINATION TAIL LAMP",
+        "G2A09": "REGISTRATION PLATE LAMP",
+        "G2A10": "ROOF LAMP",
+        "G2A11": "DOOR/PUDDLE LAMP",
+        "G2A12": "ENGINE LAMP/WORK AREA LAMP",
+        "G2A13": "EOL LAMP",
+        "G2A14": "AUXILLARY LAMP",
+        "G3A01": "DRIVER MONITORING SYSTEM",
+        "G3A02": "INTELLIGENT TRANSPORTATION SYSTEM-ITS",
+        "G3A03": "ON BOARD WI-FI",
+        "G3A04": "PEOPLE COUNTER VALIDATOR",
+        "G3A05": "TELEMATICS CONTROLLER",
+        "G3A06": "LOW COST BCM AND TCU",
+        "G3B01": "INSTRUMENT CLUSTER ",
+        "G3B02": "DIS AND PROJECTION DISPLAY",
+        "G3B03": "DISCRETE INDICATOR AND AUXILIARY GAUGES",
+        "G3B04": "IN-VEHICLE INFOTAINMENT-IVI,1 DIN",
+        "G3B05": "INVEHICLE INFOTAINMENT-2DIN/TOUCH SCREEN",
+        "G3B06": "VOICE RECOGNITION SYSTEM",
+        "G3B07": "VOICE MESSAGING SYSTEM,TEXT TO SPEECH",
+        "G3B08": "CHARGERS USB",
+        "G3B09": "WIRELESS CHARGERS ",
+        "G4A01": "EMS ECUS",
+        "G4A02": "BRACKET AND COVER EMS ECU",
+        "G4A03": "DOSING CONTROL UNIT",
+        "G4A04": "BRACKET AND COVER DCU",
+        "G4A05": "TRACTION CONTROLLER",
+        "G4A06": "HECU",
+        "G4A07": "INVERTER ",
+        "G4A08": "DC DC CONVERTOR 10A",
+        "G4A09": "DC DC CONVERTOR 1.5A",
+        "G4A10": "TRANSFER CASE CONTROLLER",
+        "G4A11": "TRANSMISSION ECU AMT AT",
+        "G4A12": "STEERING CONTROLLER",
+        "G4A13": "IMMOBILIZER AND RKE CONTROLLER",
+        "G4A14": "AUXILIARY POWERTRAIN CONTROLLER",
+        "G4A15": "VEHICLE SPEED SENSOR",
+        "G4A16": "NEUTRAL POSITION SENSOR",
+        "G4A17": "OIL PRESSURE SENSOR ",
+        "G4A18": "STEERING ANGLE SENSOR",
+        "G4A19": "AUXILIARY POWERTRAIN SENSOR",
+        "G4A20": "MOUNTING ADAPTOR FOR SENSORS",
+        "G4B01": "PARK ASSIST SYSTEM-CAMERA BASED",
+        "G4B02": "PARK ASSIST SYSTEM-SENSOR BASED",
+        "G4B03": "BRAKE SYSTEM ECUS ABS ESC",
+        "G4B04": "RETARDER ECU",
+        "G4B05": "BRACKET AND COVER BRAKE CONTROLLER",
+        "G4B06": "LDWS,LANE KEEP ASSIST",
+        "G4B07": "FCWS,AEBS,ACC CONTROLLER",
+        "G4B08": "E MIRROR",
+        "G4B09": "BLIND SPOT DETECTION",
+        "G4B10": "V2V/V2X/V2P ",
+        "G4B11": "AV CONTROLLER",
+        "G4B12": "FIRE DETECTION CONTROLLER SYSTEM",
+        "G4B13": "AIRBAG ECU",
+        "G4B14": "TYRE PRESSURE MONITORING CONTROLLER",
+        "G4B15": "ECAS",
+        "G4B16": "BRAKE LINER WEAR INDICATOR CONTROLLER",
+        "G4B17": "CLUTCH WEAR INDICATOR SYSTEM",
+        "G4B18": "TILT CONTROLLER",
+        "G4B19": "YAW RATE SENSOR ",
+        "G4B20": "INTELLIGENT BATTERY SENSOR-24V",
+        "G4B21": "BRAKE LINER SENSOR",
+        "G4B22": "AIR PRESSURE SENSOR FOR GAUGES",
+        "G4B23": "AIR PRESSURE SENSOR FOR CONTROLLER",
+        "G4B24": "WHEEL SPEED SENSOR",
+        "G4B25": "AUXILLIARY SAFETY CONTROLLER/SENSOR",
+        "G4C01": "VEHICLE ELECTRONIC CONTROLLER UNIT",
+        "G4C02": "BODY CONTROL MODULE",
+        "G4C03": "WIPER CONTROLLER",
+        "G4C04": "FLASHER 24V AND 12V",
+        "G4C05": "GEAR SHIFT ADVISOR CONTROLLER",
+        "G4C06": "GLOW PLUG CONTROLLER",
+        "G4C07": "GAS LEAK DETECTION SYSTEM",
+        "G4C08": "GATEWAY DOMAIN CONTROLLER UNIT",
+        "G4C09": "POWER WINDOW CONTROLLER",
+        "G4C10": "AUXILLIARY VEHICLE FUNCTION CONTROLLERS",
+        "H3A04": "VECU"
+      },
+      "55": {
+        "D1C08": "DECALS,REFLECTIVE TAPE",
+        "D1C09": "MASCOTS,EMBLEMS"
+      },
+      "58": {
+        "K1A01": "VIN PLATE",
+        "K1A02": "TRANSFER LABEL",
+        "K1A03": "KIT-TOOLS",
+        "K1A04": "OWNERS MANUAL ",
+        "K1A05": "KIT-FIRST AID AND TRIANGLE",
+        "K1A06": "TOOLS AND ACCESSORIES-INFO FIT DRG",
+        "K1A07": "WHEEL CHOCK",
+        "K1A08": "ADVANCE WARNING TRIANGLE",
+        "K1A09": "JACK",
+        "K1A10": "FIRE EXTINGUISHER",
+        "K1A11": "FDSS"
+      },
+      "60": {
+        "D1A18": "FES STRUCTURE",
+        "D1A20": "FULLY AND SEMI FORWARD ENGINE HOUSE",
+        "D1A21": "BOLTED PANELS AND BRACKETS",
+        "D1A22": "SEALANTS,PADS AND MELT SHEETS",
+        "D1A23": "CO2/SPOT WELDSUB MODULE",
+        "D9W01": "BIW PAINT COSUMABLES-MFG",
+        "D9X01": "BIW ASSY WITH DOORS-MFG",
+        "D9Y01": "PAINTED BODY SHELL-MFG",
+        "D9Z01": "FITTED CABIN ASSY-MFG",
+        "F9Z01": "ROLLING CHASSIS,NON-DRIVEABLE-MFG"
+      },
+      "61": {
+        "D1A01": "UNDER BODY SUB STRUCTURE",
+        "D1A02": "UNDER BODY FLOOR",
+        "D1A03": "UNDER BODY REAR EXTENSION",
+        "D1A04": "UNDER BODY REAR EXTENSION SUB STRUCTURE"
+      },
+      "62": {
+        "D1A05": "PANEL FIRE WALL",
+        "D1A06": "FIRE WALL STRUCTURE"
+      },
+      "64": {
+        "D1A07": "PANEL REAR WALL",
+        "D1A08": "REAR WALL STRUCTURE"
+      },
+      "65": {
+        "D1A14": "PANEL ROOF FRONT",
+        "D1A15": "ROOF STRUCTURE FRONT",
+        "D1A16": "PANEL ROOF REAR",
+        "D1A17": "ROOF STRUCTURE REAR"
+      },
+      "66": {
+        "D2C11": "RAISED FLOORS"
+      },
+      "67": {
+        "D1B13": "WINDSHIELD GLASS",
+        "D1B14": "REAR WALL GLASS",
+        "D1B15": "SIDE QUARTER GLASS"
+      },
+      "68": {
+        "D2A01": "STEERING WHEEL",
+        "D2A02": "DASHBOARD ASSY",
+        "D2A03": "AIR VENT ASSY",
+        "D2A04": "CCB ASSY",
+        "D2A05": "CONSOLE ASSY",
+        "D2A07": "FASCIA",
+        "D2A08": "AC/BLOWER DUCTING",
+        "D2A09": "SHROUDS AND BEZELS",
+        "D2A10": "NACELLE AND COMBI SWITCH COVERS",
+        "D2A11": "FRONT END COVERS",
+        "D2B01": "MATS AND CARPETS",
+        "D2B02": "INSULATION"
+      },
+      "69": {
+        "D2B06": "SCUFF PLATES",
+        "D2B07": "HANDLES",
+        "D2B21": "BELLOW",
+        "D2B23": "AIR DEFLECTOR",
+        "D2B24": "DEAD PEDALS",
+        "D2B09": "HEADLINER",
+        "D2B10": "SIDE WALL TRIMS ",
+        "D2B15": "PILLAR TRIMS",
+        "D2B17": "REAR WALL TRIMS",
+        "D2B19": "UTILITY POCKETS"
+      },
+      "70": {
+        "A1B01": "LOAD BODY ASSY",
+        "A1B02": "SUPD ASSY",
+        "A1B03": "SPRAY SUPPRESSION MAT",
+        "A1B04": "RPAS MOUNTING BKT",
+        "A1B05": "KIT-MUDGUARD ASSY",
+        "A1B06": "KIT-BALATA",
+        "A1B07": "KIT-U BOLT/CLITS/LB MOUNTING",
+        "A1B08": "KIT-CONSUMABLES/HARDWARES/ACCESSORY MTG",
+        "A1C01": "CONTAINER",
+        "A1C02": "REFER VAN",
+        "A1C03": "SPECIAL APPLICATIONS",
+        "A1C04": "SPECIAL APPLICATIONS-ACCESSORIES",
+        "A1C05": "SPECIAL APPLICATIONS-MOUNTINGS",
+        "A9Z01": "LOADBODY FITTED ASSY MFG",
+        "D1D01": "SIDE PANEL ASSY",
+        "D1D02": "FLOOR STRUCTURE",
+        "D1D03": "FRONT PANEL ASSY",
+        "D1D04": "TAILGATE ASSY",
+        "D1D05": "LOAD GUARD",
+        "D1D06": "KIT-FITMENT",
+        "D1D07": "HIGH DECK TUBULAR STRUCTURE ",
+        "D1D08": "SEALANTS "
+      },
+      "72": {
+        "D1B01": "FRONT DOOR ASSY,LH-RH",
+        "D1B05": "DOOR CHECK MECHANISM",
+        "D1B06": "CLOSURE HINGE",
+        "D1B07": "INNER HANDLE",
+        "D1B08": "LATCH,STRIKER AND LOCK MECHANISM",
+        "D1B09": "OUTER HANDLE",
+        "D1B10": "DOOR GLASS",
+        "D1B11": "WEATHER-STRIPS AND GLASS RUN MOULDS",
+        "D1B12": "WINDOW REGULATOR MECHANISM",
+        "D1B16": "DOOR AND HOOD SEALING SYSTEM",
+        "D2B11": "TRIMS-FRONT DOOR"
+      },
+      "73": {
+        "D1B02": "REAR DOOR ASSY,LH-RH"
+      },
+      "74": {
+        "D1B03": "TAILGATE DOOR ASSY ",
+        "D2B16": "TAILGATE TRIMS"
+      },
+      "75": {
+        "D1B04": "SHEET METAL FRONT FLAPS AND BONNETS",
+        "D1B20": "STAY RODS AND GAS-STUDS"
+      },
+      "81": {
+        "D1B17": "ROOF BEADING",
+        "D1B21": "MIRRORS",
+        "D1B25": "BIW SEALING RUBBER PLUGS AND GROMMETS",
+        "D1C04": "FRESH AIR INTAKE GRILL",
+        "D1C18": "MISC EXTERIOR FITMENTS AND ACCESSORIES",
+        "D2B03": "SUN VISORS",
+        "D2B04": "CURTAIN HOOKS/HANGERS",
+        "D2B05": "PARTITIONS",
+        "D2B08": "COVERS-ROOF AC/BLOWER AND MISC",
+        "D2B25": "MISC INTERIOR FITMENTS AND ACCESSORIES",
+        "D2B13": "OVERHEAD LUGGAGE CARRIER"
+      },
+      "82": {
+        "D1B18": "WIPER BLADES",
+        "D1B19": "WIPER LINKAGES AND MOTOR ASSY"
+      },
+      "83": {
+        "D3A01": "FORCE VENTILATION ASSY-BLOWER UNIT",
+        "D3A02": "COMPRESSOR ASSY ",
+        "D3A03": "CONDENSER ASSY ",
+        "D3A04": "CONTROL PANEL",
+        "D3A05": "AC UNIT",
+        "D3A06": "HVAC UNIT",
+        "D3A07": "HEATING DEMISTING UNIT ",
+        "D3A08": "BATTERY COOLING UNIT-BCS",
+        "D3A09": "HEATER PIPING",
+        "D3A10": "AC PIPING ",
+        "D4A04": "AMBULANCE-FANS AND BLOWERS"
+      },
+      "88": {
+        "D1C01": "FRONT BUMPER",
+        "D1C02": "REAR BUMPER",
+        "D1C03": "AIR ESCAPE VALVE",
+        "D1C05": "FOOT STEP",
+        "D1C06": "MAIN FRONT GRILL",
+        "D1C07": "TRUST BAR",
+        "D1C10": "LEAF SCREEN",
+        "D1C11": "FRONT FLAP ASSY,PLASTIC",
+        "D1C12": "SIDE FENDER,PLASTIC",
+        "D1C13": "AEROCORNER,PLASTIC",
+        "D1C14": "MUDGUARD,MUD FLAP AND SPRAY SUPPRESSION",
+        "D1C15": "DOOR AND WHEEL-ARCH MOULDINGS",
+        "D2B20": "DUST SHIELD-INCL FASTENERS/NOISE SHEILD",
+        "D2B22": "ENGINE HOOD",
+        "D4A02": "AMBULANCE-DECALS"
+      },
+      "89": {
+        "D1B22": "CAB MOUNTING FRONT",
+        "D1B23": "CAB MOUNTING REAR",
+        "D1B24": "CAB TILTING MECHANISM"
+      },
+      "91": {
+        "D2C01": "DRIVER SEAT",
+        "D2C02": "DRIVER SEAT RISER",
+        "D2D06": "OCCUPANT DETECTION SYSTEM"
+      },
+      "92": {
+        "D2C06": "PASSANGER SEATS",
+        "D2C07": "RISER PASSANGER SEATS ",
+        "D4A01": "AMBULANCE-ATTENDER SEAT",
+        "D4A03": "AMBULANCE-DOCTOR SEAT"
+      },
+      "93": {
+        "D2C05": "TUMBLE SEATS "
+      },
+      "94": {
+        "D2C03": "CO-DRIVER SEAT",
+        "D2C04": "CO-DRIVER SEAT RISER"
+      },
+      "97": {
+        "D2D01": "SEAT BELT ASSY,DRIVER",
+        "D2D02": "SEAT BELT ASSY,CO-DRIVER",
+        "D2D03": "SEAT BELT PASSENGER",
+        "D2D04": "AIR BAGS,DRIVER",
+        "D2D05": "KIT-SEAT BELT,RPLL",
+        "D2D07": "AIR BAGS,PASSENGER",
+        "D2D08": "SIDE AIR BAG",
+        "D2D09": "CURTAIN AIR BAG",
+        "D2D10": "KNEE AIR BAG"
+      },
+      "98": {
+        "D2C08": "BERTH LOWER",
+        "D2C09": "BERTH UPPER",
+        "D2C10": "FOAM BLOCKS"
+      }
+    },
+    "part_designations": {
+      "00": "Information Drawing",
+      "01": "Assembly Drawing",
+      "02": "Assembly Drawing",
+      "03": "Assembly Drawing",
+      "04": "Table Drawing",
+      "11": "Software/Parameter",
+      "16": "Offer Drawing",
+      "30": "Balls, needles & rollers",
+      "31": "Bearings",
+      "32": "Bolts",
+      "33": "Brackets",
+      "34": "Bushes",
+      "35": "Boss",
+      "36": "Filter",
+      "37": "Casting - Ferrous",
+      "38": "Casting - Non-ferrous",
+      "39": "Unspecified",
+      "40": "Unspecified",
+      "41": "Forgings - Non-ferrous",
+      "42": "Clamps",
+      "43": "Special Clips & Circlips",
+      "44": "Collars (for tools)",
+      "45": "Unspecified",
+      "46": "Couplings for power transmission",
+      "47": "Covers (for gearbox etc.)",
+      "48": "Special Dowels",
+      "49": "Electrical items/Instruments",
+      "50": "Extruded Sections (Metallic)",
+      "51": "Forgings - Ferrous",
+      "52": "Extruded Sections (Non-metallic)",
+      "53": "Gaskets / Packings / Foam (Non-Rubber)",
+      "54": "Gears",
+      "55": "Hubs",
+      "56": "Handles & Knobs",
+      "57": "Hand wheels",
+      "58": "Pipe / Tubes / Hoses (non-metallic)",
+      "59": "Keys",
+      "60": "Lever, Link, Tie rod, Mech cables",
+      "61": "Locking washers & Plates",
+      "63": "Moulded Non-metallic items",
+      "65": "Nuts, Nut insert",
+      "66": "Piston & Piston rods",
+      "67": "Pins",
+      "68": "Pipe/Hose fitting accessories",
+      "69": "Pipes / Tubes (Metal)",
+      "70": "Pulleys",
+      "71": "Plate items",
+      "72": "Screwed plugs",
+      "74": "Rivets",
+      "75": "Rubber bushes/grommets",
+      "76": "Rolled Sections",
+      "77": "Rubber/Plastic Packaging and Seals",
+      "78": "Dust & Oil seals, Special O-Rings",
+      "79": "Shafts & Spindles",
+      "80": "Screws",
+      "82": "Sheet metal items",
+      "83": "Shims",
+      "84": "Sleeves (for tools)",
+      "85": "Socket",
+      "86": "Spacers",
+      "87": "Springs",
+      "88": "Studs",
+      "89": "Sprockets",
+      "90": "Valves",
+      "91": "Container",
+      "92": "Washers",
+      "93": "Sensors/Controllers",
+      "99": "Unclassified/miscellaneous"
+    },
+    "major_groups": {
+      "0": "Reserved",
+      "1": "Standard parts (Fasteners, Bearings, etc.)",
+      "2": "Special Machinery Spares",
+      "3": "Tools and Gauges",
+      "4": "Jigs, Fixtures, Press Tool Elements",
+      "5": "Raw Materials, Lubricants, Paints",
+      "6": "Electrical, Electronic & Construction Items",
+      "7": "Reserved",
+      "8": "Foundry, Forge, Equipment, Safety Items",
+      "9": "Miscellaneous / Direct Issue Numbers"
+    },
+    "color_codes": {
+      "B0": "Color Code Start",
+      "B9": "Color Code End",
+      "BA": "Color Code",
+      "BZ": "Color Code",
+      "C8": "Continental Blue",
+      "CE": "Sapphire Gold"
+    },
+    "version_attributes": {
+      "a": "Axle drive (4x2 / 4x4 / 6x4 etc.)",
+      "b": "Type of steering (Mechanical / Power Steering)",
+      "c": "Execution (LP / LPT / LPO / LPS / LPK / LPTA / SA / SD / SE / SK / SFC etc.)",
+      "d": "Different overhangs (Rear / Front)",
+      "e": "Engine types (NA / TC / DICOR / Lowered / Derated / Diesel / Petrol / CNG / Hybrid with BS-I to BS-III)",
+      "f": "Vehicle face (1210 / 1516 / SFC / without face), cab/cowl, sleeper/non-sleeper",
+      "g": "Chassis application (tipper / tractor / army / monocoque)",
+      "h": "Auxiliary fitments (AC / Heating / Demisting)",
+      "i": "Aggregate fitments (Rear Axle / Gear Box - Imported/Domestic)",
+      "j": "Load body presence",
+      "k": "Suspension type (reinforced / air suspension)",
+      "l": "Brake system (Drum / Disc / ABS / SCAM / Retarders)",
+      "m": "Tyre types (Normal / Radial / Tubeless / Run flat)",
+      "n": "Roof type (Flat / High)",
+      "o": "Seating layouts (6 to 24 seats)"
+    },
+    "wheelbase_codes": {
+      "32": "3200-3299 mm",
+      "99": "Special wheelbase > 9999 mm"
+    },
+    "drive_types": {
+      "R": "Right Hand Drive",
+      "L": "Left Hand Drive"
+    },
+    "examples": {
+      "2698 0124 R": "TPL for basic vehicle - Tata Sumo, first version, 2400mm WB, RHD",
+      "2698 0124 R BR 1": "TPL for coloured vehicle",
+      "2698 0124 42 R": "TPL for group 42",
+      "2698 0124 42 R SP": "TPL for spares for TPL group 42"
+    }
+  },
+  "comparison_defaults": {
+    "id_column": "Component ID",
+    "parent_column": "ParentID",
+    "description_column": "Description",
+    "quantity_column": "Quantity",
+    "cs_column": "CS",
+    "explosion_level_column": "ExplosionLevel"
+  },
+
+  "color_codes": {
+    "ADDED": "C6EFCE",
+    "DELETED": "FFC7CE",
+    "CHANGED": "FFEB9C",
+    "UNCHANGED": "FFFFFF"
+  },
+
+  "column_allowlist": [
+    "Component ID",
+    "ParentID",
+    "Description",
+    "Quantity",
+    "CS",
+    "ExplosionLevel",
+    "Material",
+    "Plant",
+    "Special Procurement",
+    "Unit of Measure",
+    "Validity Date",
+    "Created By"
+  ]
+}

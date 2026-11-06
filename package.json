@@ -1,0 +1,53 @@
+{
+  "name": "tcua-bom-comparison",
+  "version": "1.0.0",
+  "description": "BOM Comparison Service Desktop Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:py": ".\\\\.venv\\\\Scripts\\\\python.exe -m PyInstaller --noconfirm app.spec",
+    "dist": "npm run build:py && electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "devDependencies": {
+    "electron": "^28.2.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.bom.tcua",
+    "productName": "TCUA BOM Compare",
+    "win": {
+      "target": "portable",
+      "sign": null,
+      "extraResources": [
+        {
+          "from": "dist/app",
+          "to": "backend",
+          "filter": [
+            "**/*"
+          ]
+        }
+      ],
+      "artifactName": "${productName}_v${version}.${ext}"
+    },
+    "directories": {
+      "output": "Deployment"
+    },
+    "files": [
+      "main.js",
+      "package.json",
+      "static/**/*",
+      "!dist/**/*",
+      "!build/**/*",
+      "!Deployment/**/*",
+      "!node_modules/**/*",
+      "!session_files/**/*",
+      "!*.xlsx",
+      "!*.docx"
+    ],
+    "asar": true
+  },
+  "dependencies": {
+    "axios": "^1.15.0"
+  }
+}

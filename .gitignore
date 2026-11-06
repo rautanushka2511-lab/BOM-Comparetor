@@ -1,0 +1,36 @@
+# ==========================================
+# Only ignore items that are installed online or generated during build/run
+# ==========================================
+
+# Virtual Environments (installed via `pip install -r requirements.txt`)
+.venv/
+venv/
+env/
+ENV/
+
+# Node dependencies & caches (installed via `npm install`)
+node_modules/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+
+# Build & Deployment Output (generated via build scripts / PyInstaller / electron-builder)
+dist/
+build/
+Deployment/
+*.egg-info/
+
+# Python Cache & IDE (auto-generated)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+
+# Runtime session files & embedding caches (auto-generated during runs)
+session_files/
+.emb_cache/
+.eb-cache/
+.cache/
+*.log
+*.tmp

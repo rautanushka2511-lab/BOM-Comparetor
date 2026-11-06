@@ -1,0 +1,2714 @@
+[
+  {
+    "DESIGN GROUP": "00",
+    "SUBMODULE ADDRESS": "H1A01",
+    "SUBMODULE": "ENGINE ASSY ",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "00",
+    "SUBMODULE ADDRESS": "H9Z01",
+    "SUBMODULE": "ENGINE ASSY WITH GB-MFG",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "00",
+    "SUBMODULE ADDRESS": "H9Z02",
+    "SUBMODULE": "ENGINE WITH CLUTCH-MFG",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "01",
+    "SUBMODULE ADDRESS": "H1A02",
+    "SUBMODULE": "ENGINE STRUCTURE-BLOCK,HEAD",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "03",
+    "SUBMODULE ADDRESS": "H1A03",
+    "SUBMODULE": "DRIVE PARTS-CRANK TRAIN SYSTEM",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "05",
+    "SUBMODULE ADDRESS": "H1A04",
+    "SUBMODULE": "VALVE TRAIN SYSTEM/TIMING DRIVE",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "07",
+    "SUBMODULE ADDRESS": "H1A05",
+    "SUBMODULE": "FUEL INJ AND COMBUSTION SYS-PETROL,CNG",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "09",
+    "SUBMODULE ADDRESS": "H1A06",
+    "SUBMODULE": "AIR INTAKE,BREATHING SYSTEM-ENG MOUNTED",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "13",
+    "SUBMODULE ADDRESS": "H1A07",
+    "SUBMODULE": "ENGINE MOUNTED AIR COMPRESSOR",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "14",
+    "SUBMODULE ADDRESS": "H1A08",
+    "SUBMODULE": "EGR AND BOOSTING SYS,VALVE/COOLER/TURBO",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "15",
+    "SUBMODULE ADDRESS": "G1C04",
+    "SUBMODULE": "ALTERNATOR",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "15",
+    "SUBMODULE ADDRESS": "G1C05",
+    "SUBMODULE": "STARTER MOTOR",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "15",
+    "SUBMODULE ADDRESS": "H1A09",
+    "SUBMODULE": "SENSORS/ACTUATORS/AUX DRIVE SYSTEM-FEED",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "16",
+    "SUBMODULE ADDRESS": "H1A16",
+    "SUBMODULE": "EMS CALIBRATION CONTROL-DIESEL/PETROL",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "16",
+    "SUBMODULE ADDRESS": "K2A01",
+    "SUBMODULE": "CALIBRATION RELEASES",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "18",
+    "SUBMODULE ADDRESS": "H1A10",
+    "SUBMODULE": "LUBRICATION SYSTEM-OIL PUMP,FILTER ETC",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "20",
+    "SUBMODULE ADDRESS": "H1A11",
+    "SUBMODULE": "COOLING SYSTEM,BASE ENGINE",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "21",
+    "SUBMODULE ADDRESS": "H1A15",
+    "SUBMODULE": "AIR INTAKE SYSTEM-VEH LEVEL/REMOTE MTG",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "22",
+    "SUBMODULE ADDRESS": "H1A12",
+    "SUBMODULE": "ENG OIL,MOUNTS,LIFT HOOK,NUMBER PLATE",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "23",
+    "SUBMODULE ADDRESS": "H1A13",
+    "SUBMODULE": "AC COMPR,POWER STEERING PUMP BRACKET",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "24",
+    "SUBMODULE ADDRESS": "F3C01",
+    "SUBMODULE": "FRONT ENGINE MOUNT",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "24",
+    "SUBMODULE ADDRESS": "F3C02",
+    "SUBMODULE": "REAR ENGINE MOUNT",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "24",
+    "SUBMODULE ADDRESS": "F3C03",
+    "SUBMODULE": "POWERTRAIN SIDE ENGINE MOUNT BRACKET",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "24",
+    "SUBMODULE ADDRESS": "F3C04",
+    "SUBMODULE": "CHASSIS SIDE ENGINE MOUNT BRACKET",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "24",
+    "SUBMODULE ADDRESS": "F3C05",
+    "SUBMODULE": "AUX MOUNT-ROLL ARRESTOR,DAMPER ETC",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "24",
+    "SUBMODULE ADDRESS": "F3C06",
+    "SUBMODULE": "AUXILIARY MOUNT BRACKET",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "24",
+    "SUBMODULE ADDRESS": "F3C07",
+    "SUBMODULE": "ENGINE MOUNTING-INFO FIT DRG",
+    "Location": "ENGINE"
+  },
+  {
+    "DESIGN GROUP": "25",
+    "SUBMODULE ADDRESS": "H2A01",
+    "SUBMODULE": "BASE CLUTCH",
+    "Location": "CLUTCH"
+  },
+  {
+    "DESIGN GROUP": "25",
+    "SUBMODULE ADDRESS": "H2A02",
+    "SUBMODULE": "CLUTCH RELEASE SYSTEM ",
+    "Location": "CLUTCH"
+  },
+  {
+    "DESIGN GROUP": "26",
+    "SUBMODULE ADDRESS": "H2C01",
+    "SUBMODULE": "GEARBOX ",
+    "Location": "GEAR BOX"
+  },
+  {
+    "DESIGN GROUP": "26",
+    "SUBMODULE ADDRESS": "H2C02",
+    "SUBMODULE": "GEAR SHIFT SYSTEM ",
+    "Location": "GEAR BOX"
+  },
+  {
+    "DESIGN GROUP": "26",
+    "SUBMODULE ADDRESS": "H2F01",
+    "SUBMODULE": "BASE TRANSAXLE AND CV SHAFTS",
+    "Location": "GEAR BOX"
+  },
+  {
+    "DESIGN GROUP": "26",
+    "SUBMODULE ADDRESS": "H2F02",
+    "SUBMODULE": "GEAR SHIFT SYSTEM",
+    "Location": "GEAR BOX"
+  },
+  {
+    "DESIGN GROUP": "26",
+    "SUBMODULE ADDRESS": "H9Y01",
+    "SUBMODULE": "GEAR BOX ASSY,SINGLE-MFG",
+    "Location": "GEAR BOX"
+  },
+  {
+    "DESIGN GROUP": "26",
+    "SUBMODULE ADDRESS": "H9Y02",
+    "SUBMODULE": "TRANSAXLE ASSY,SINGLE-MFG",
+    "Location": "GEAR BOX"
+  },
+  {
+    "DESIGN GROUP": "28",
+    "SUBMODULE ADDRESS": "H2E01",
+    "SUBMODULE": "BASE TRANSFER CASE",
+    "Location": "GEAR BOX"
+  },
+  {
+    "DESIGN GROUP": "28",
+    "SUBMODULE ADDRESS": "H2E02",
+    "SUBMODULE": "TRANSFER SHIFT MECHANISM",
+    "Location": "GEAR BOX"
+  },
+  {
+    "DESIGN GROUP": "29",
+    "SUBMODULE ADDRESS": "F1E01",
+    "SUBMODULE": "BRAKE PEDAL ASSY",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "29",
+    "SUBMODULE ADDRESS": "F1E02",
+    "SUBMODULE": "CLUTCH PEDAL ASSY",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "29",
+    "SUBMODULE ADDRESS": "F1E03",
+    "SUBMODULE": "CLUTCH CABLE/HIGH PRESSURE PIPING",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "29",
+    "SUBMODULE ADDRESS": "F1E04",
+    "SUBMODULE": "VACUUM BOOSTER/CLUTCH MASTER CYLINDER",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "29",
+    "SUBMODULE ADDRESS": "F1E05",
+    "SUBMODULE": "CLUTCH BOOSTER/SLAVE CYLINDER",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "29",
+    "SUBMODULE ADDRESS": "F1E06",
+    "SUBMODULE": "CLUTCH RESERVOIR & LOW PRESSURE PIPING ",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "29",
+    "SUBMODULE ADDRESS": "F1E07",
+    "SUBMODULE": "CLUTCH-BRAKE PEDAL-INFO FIT DRG",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "30",
+    "SUBMODULE ADDRESS": "F1E08",
+    "SUBMODULE": "ACCELERATOR PEDAL ASSY-APM",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "30",
+    "SUBMODULE ADDRESS": "F1E09",
+    "SUBMODULE": "ACCELERATOR PEDAL-INFO FIT DRG",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "31",
+    "SUBMODULE ADDRESS": "F1A01",
+    "SUBMODULE": "FRAME ASSY",
+    "Location": "FRAME"
+  },
+  {
+    "DESIGN GROUP": "31",
+    "SUBMODULE ADDRESS": "F1A02",
+    "SUBMODULE": "FRONT UNDER-RUN PROTECTION DEVICE",
+    "Location": "FRAME"
+  },
+  {
+    "DESIGN GROUP": "31",
+    "SUBMODULE ADDRESS": "F1A03",
+    "SUBMODULE": "REAR UNDER-RUN PROTECTION DEVICE",
+    "Location": "FRAME"
+  },
+  {
+    "DESIGN GROUP": "31",
+    "SUBMODULE ADDRESS": "F1A04",
+    "SUBMODULE": "BATTERY CARRIER",
+    "Location": "FRAME"
+  },
+  {
+    "DESIGN GROUP": "31",
+    "SUBMODULE ADDRESS": "F1A05",
+    "SUBMODULE": "TOW HOOK",
+    "Location": "FRAME"
+  },
+  {
+    "DESIGN GROUP": "31",
+    "SUBMODULE ADDRESS": "F9Y01",
+    "SUBMODULE": "PAINTED FRAME WITH FITMENT-MFG",
+    "Location": "FRAME"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2A01",
+    "SUBMODULE": "AXLE BEAM",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2A02",
+    "SUBMODULE": "STUB AXLE ASSY",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2A03",
+    "SUBMODULE": "STEERING ARM",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2A04",
+    "SUBMODULE": "HUB ASSY",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2A05",
+    "SUBMODULE": "TIEROD ASSY AND TIEROD ARM",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2A06",
+    "SUBMODULE": "FRONT AXLE-INFO FIT DRG",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2D01",
+    "SUBMODULE": "KIT-LIFT AXLE",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2D02",
+    "SUBMODULE": "LINKAGES",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2D03",
+    "SUBMODULE": "PNEUMATIC CIRCUIT",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2D04",
+    "SUBMODULE": "MAIN BELLOW",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2D05",
+    "SUBMODULE": "LIFT BELLOW",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2D06",
+    "SUBMODULE": "BUSH AND STRAPS",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "H2B01",
+    "SUBMODULE": "FRONT LIVE AXLE W/O BRAKES",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "H2B02",
+    "SUBMODULE": "FRONT LIVE AXLE WITH BRAKES",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "H9X01",
+    "SUBMODULE": "LIVE FRONT AXLE ASSY WITH BRAKES-MFG ",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "H9X02",
+    "SUBMODULE": "FRONT AXLE ASSY WITH BRAKES-MFG",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "H9X03",
+    "SUBMODULE": "KIT-LIFT AXLE ASSY WITH BRAKES-MFG",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2A01",
+    "SUBMODULE": "AXLE BEAM",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2A02",
+    "SUBMODULE": "STUB AXLE ASSY",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2A03",
+    "SUBMODULE": "STEERING ARM",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2A04",
+    "SUBMODULE": "HUB ASSY",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2A05",
+    "SUBMODULE": "TIEROD ASSY AND TIEROD ARM",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2A06",
+    "SUBMODULE": "FRONT AXLE-INFO FIT DRG",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2D01",
+    "SUBMODULE": "KIT-LIFT AXLE",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2D02",
+    "SUBMODULE": "LINKAGES",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2D03",
+    "SUBMODULE": "PNEUMATIC CIRCUIT",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2D04",
+    "SUBMODULE": "MAIN BELLOW",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2D05",
+    "SUBMODULE": "LIFT BELLOW",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "F2D06",
+    "SUBMODULE": "BUSH AND STRAPS",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "H2B01",
+    "SUBMODULE": "FRONT LIVE AXLE W/O BRAKES",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "H2B02",
+    "SUBMODULE": "FRONT LIVE AXLE WITH BRAKES",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "H9X01",
+    "SUBMODULE": "LIVE FRONT AXLE ASSY WITH BRAKES-MFG ",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "H9X02",
+    "SUBMODULE": "FRONT AXLE ASSY WITH BRAKES-MFG",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "33",
+    "SUBMODULE ADDRESS": "H9X03",
+    "SUBMODULE": "KIT-LIFT AXLE ASSY WITH BRAKES-MFG",
+    "Location": "FRONT AXLE"
+  },
+  {
+    "DESIGN GROUP": "35",
+    "SUBMODULE ADDRESS": "H2D01",
+    "SUBMODULE": "REAR LIVE AXLE W/O BRAKES",
+    "Location": "REAR AXLE"
+  },
+  {
+    "DESIGN GROUP": "35",
+    "SUBMODULE ADDRESS": "H2D03",
+    "SUBMODULE": "REAR LIVE AXLE WITH BRAKES",
+    "Location": "REAR AXLE"
+  },
+  {
+    "DESIGN GROUP": "35",
+    "SUBMODULE ADDRESS": "H9W01",
+    "SUBMODULE": "LIVE REAR AXLE ASSY WITH BRAKES-MFG",
+    "Location": "REAR AXLE"
+  },
+  {
+    "DESIGN GROUP": "39",
+    "SUBMODULE ADDRESS": "H2D02",
+    "SUBMODULE": "DEAD AXLE W/O BRAKES",
+    "Location": "DEAD AXLE"
+  },
+  {
+    "DESIGN GROUP": "39",
+    "SUBMODULE ADDRESS": "H9W02",
+    "SUBMODULE": "DEAD REAR AXLE ASSY WITH BRAKES-MFG",
+    "Location": "DEAD AXLE"
+  },
+  {
+    "DESIGN GROUP": "40",
+    "SUBMODULE ADDRESS": "F5B01",
+    "SUBMODULE": "TYRE AND RIM ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "40",
+    "SUBMODULE ADDRESS": "F5B02",
+    "SUBMODULE": "WHEEL MOUNTING",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "40",
+    "SUBMODULE ADDRESS": "F5B03",
+    "SUBMODULE": "SPARE WHEEL MOUNTING",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "40",
+    "SUBMODULE ADDRESS": "F5B04",
+    "SUBMODULE": "LABEL,TYRE PRESSURE INSTRUCTION",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "41",
+    "SUBMODULE ADDRESS": "F2C01",
+    "SUBMODULE": "PROPELLER SHAFT ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "41",
+    "SUBMODULE ADDRESS": "F2C02",
+    "SUBMODULE": "CENTRE BEARING MOUTING BRACKET",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "41",
+    "SUBMODULE ADDRESS": "F2C03",
+    "SUBMODULE": "GUARD",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "41",
+    "SUBMODULE ADDRESS": "F2C04",
+    "SUBMODULE": "TORSIONAL VIBRATION DAMPER",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "41",
+    "SUBMODULE ADDRESS": "F2C05",
+    "SUBMODULE": "PROPELLER SHAFT-INFO FIT DRG",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "42",
+    "SUBMODULE ADDRESS": "F5A01",
+    "SUBMODULE": "FRONT FORWARD AXLE FOUNDATION BRAKE",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "42",
+    "SUBMODULE ADDRESS": "F5A02",
+    "SUBMODULE": "FRONT REARWARD AXLE FOUNDATION BRAKE",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "42",
+    "SUBMODULE ADDRESS": "F5A03",
+    "SUBMODULE": "PUSHER LIFT AXLE FOUNDATION BRAKE",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "42",
+    "SUBMODULE ADDRESS": "F5A04",
+    "SUBMODULE": "REAR FORWARD AXLE FOUNDATION BRAKE",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "42",
+    "SUBMODULE ADDRESS": "F5A05",
+    "SUBMODULE": "REAR REARWARD AXLE FOUNDATION BRAKE",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "42",
+    "SUBMODULE ADDRESS": "F5A06",
+    "SUBMODULE": "TAG LIFT AXLE FOUNDATION BRAKE ",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A07",
+    "SUBMODULE": "AIR TANK ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A08",
+    "SUBMODULE": "BRAKE CONTROL ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A09",
+    "SUBMODULE": "PARKING BRAKE ACTUATION ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A10",
+    "SUBMODULE": "BRAKE MODULATOR UNIT",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A11",
+    "SUBMODULE": "BRAKE VALVE ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A12",
+    "SUBMODULE": "ADDITIONAL VALVE ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A13",
+    "SUBMODULE": "TRAILER VALVE ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A14",
+    "SUBMODULE": "LOAD SENSING VALVE ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A15",
+    "SUBMODULE": "BRAKE CHAMBER ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A16",
+    "SUBMODULE": "SPRING BRAKE ACTUATOR ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A17",
+    "SUBMODULE": "AIR PROCESSING UNIT ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A18",
+    "SUBMODULE": "AIR COMPRESSOR ASSY/VACCUM PUMP ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A19",
+    "SUBMODULE": "METAL PIPE ASSY WITH CLAMPS",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A20",
+    "SUBMODULE": "PIPE CLAMPS AND HOSES ASSY-CHASSIS",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A21",
+    "SUBMODULE": "PIPE CLAMPS AND HOSES ASSY-CABIN",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A22",
+    "SUBMODULE": "AUXILIARY BRAKE ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A23",
+    "SUBMODULE": "TRANSFER LABEL",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A24",
+    "SUBMODULE": "PARKING BRAKE CABLES ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A25",
+    "SUBMODULE": "RESERVOIR ASSY WITH BRAKE FLUID",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A26",
+    "SUBMODULE": "TRANSMISSON MOUNTED PARKING BRAKE",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A27",
+    "SUBMODULE": "VACUUM TANK AND PIPING",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "43",
+    "SUBMODULE ADDRESS": "F5A28",
+    "SUBMODULE": "BRAKING SYSTEM-INFO FIT DRG",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "45",
+    "SUBMODULE ADDRESS": "F1C01",
+    "SUBMODULE": "BREATHER HOSE",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "45",
+    "SUBMODULE ADDRESS": "F1C02",
+    "SUBMODULE": "PTO PIPING",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "45",
+    "SUBMODULE ADDRESS": "F1C03",
+    "SUBMODULE": "TIPPING PIPING",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "45",
+    "SUBMODULE ADDRESS": "F1C04",
+    "SUBMODULE": "INTERAXLE AND DIFFLOCK PIPING",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "45",
+    "SUBMODULE ADDRESS": "F1C05",
+    "SUBMODULE": "PNEUMATIC SYSTEM-INFO FIT DRG",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "46",
+    "SUBMODULE ADDRESS": "F2B01",
+    "SUBMODULE": "STEERING COLUMN",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "46",
+    "SUBMODULE ADDRESS": "F2B02",
+    "SUBMODULE": "INTERMEDIATE SHAFT",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "46",
+    "SUBMODULE ADDRESS": "F2B03",
+    "SUBMODULE": "RUBBER BELLOW ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "46",
+    "SUBMODULE ADDRESS": "F2B04",
+    "SUBMODULE": "STEERING GEAR",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "46",
+    "SUBMODULE ADDRESS": "F2B05",
+    "SUBMODULE": "STEERING BRACKET ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "46",
+    "SUBMODULE ADDRESS": "F2B06",
+    "SUBMODULE": "PITMAN ARM",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "46",
+    "SUBMODULE ADDRESS": "F2B07",
+    "SUBMODULE": "DRAGLINK ",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "46",
+    "SUBMODULE ADDRESS": "F2B08",
+    "SUBMODULE": "STEERING PUMP",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "46",
+    "SUBMODULE ADDRESS": "F2B09",
+    "SUBMODULE": "HYDRAULIC PIPING",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "46",
+    "SUBMODULE ADDRESS": "F2B10",
+    "SUBMODULE": "STEERING RESERVOIR",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "46",
+    "SUBMODULE ADDRESS": "F2B11",
+    "SUBMODULE": "POWER CYLINDER",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "46",
+    "SUBMODULE ADDRESS": "F2B12",
+    "SUBMODULE": "ADDITIONAL LINKAGES",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "46",
+    "SUBMODULE ADDRESS": "F2B13",
+    "SUBMODULE": "STEERING SYSTEM-INFO FIT DRG",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A01",
+    "SUBMODULE": "FUEL TANK/AUXILIARY FUEL TANK ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A02",
+    "SUBMODULE": "FUEL TANK MOUNTING BRACKET ASSY ",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A03",
+    "SUBMODULE": "SUCTION AND RETURN FUEL LINE ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A04",
+    "SUBMODULE": "FUEL FILTER MOUNTING BRACKET ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A05",
+    "SUBMODULE": "CANISTER ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A06",
+    "SUBMODULE": "PURGE VALVE ASSY AND MOUNTING",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A07",
+    "SUBMODULE": "ELECTRIC FEED PUMP ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A08",
+    "SUBMODULE": "HEAT SHIELD FUEL TANK AND STONE GUARD",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A09",
+    "SUBMODULE": "CNG CYL AND AUX CYL ASSY WITH MTG BKT",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A10",
+    "SUBMODULE": "CNG FILLING UNIT ASSY WITH MTG BKT",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A11",
+    "SUBMODULE": "HIGH PRESSURE FILTER ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A12",
+    "SUBMODULE": "LOW PRESSURE FILTER ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A13",
+    "SUBMODULE": "HP CNG TUBE ASSY WITH MTG CLAMPS",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A14",
+    "SUBMODULE": "HP REGULATOR ASSY WITH MTG BKT",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A15",
+    "SUBMODULE": "HP REG COOLANT HOSE,LP CNG TUBE ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A16",
+    "SUBMODULE": "KIT-VENT TUBE ASSY,VENT WITH MTG CLAMP",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A17",
+    "SUBMODULE": "CONNECTORS",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A18",
+    "SUBMODULE": "COMPLIANCE PLATE AND CNG STICKERS",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A19",
+    "SUBMODULE": "HEAT SHIELD WITH BRACKET",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "F3A20",
+    "SUBMODULE": "FUEL SYSTEM-INFO FIT DRG",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "H3B03",
+    "SUBMODULE": "HYDROGEN STORAGE AND DELIVERY SYSTEM",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "47",
+    "SUBMODULE ADDRESS": "H3B05",
+    "SUBMODULE": "HYDROGEN SAFETY SYSTEM",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "49",
+    "SUBMODULE ADDRESS": "F3B01",
+    "SUBMODULE": "SILENCER ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "49",
+    "SUBMODULE ADDRESS": "F3B02",
+    "SUBMODULE": "UREA TANK AND MOUNTING ASSY",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "49",
+    "SUBMODULE ADDRESS": "F3B03",
+    "SUBMODULE": "KIT-EGP,ATS AND PROTECTIVE SHIELD",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "49",
+    "SUBMODULE ADDRESS": "F3B04",
+    "SUBMODULE": "GASKET",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "49",
+    "SUBMODULE ADDRESS": "F3B05",
+    "SUBMODULE": "EXHAUST PIPE ASSY AND MOUNTING",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "49",
+    "SUBMODULE ADDRESS": "F3B06",
+    "SUBMODULE": "TAIL PIPE ASSY AND MOUNTING",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "49",
+    "SUBMODULE ADDRESS": "F3B07",
+    "SUBMODULE": "KIT-UREA LINE",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "49",
+    "SUBMODULE ADDRESS": "F3B08",
+    "SUBMODULE": "SUPPLY MODULE MOUNTING",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "49",
+    "SUBMODULE ADDRESS": "F3B09",
+    "SUBMODULE": "KIT-HEAT SHIELD",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "49",
+    "SUBMODULE ADDRESS": "F3B10",
+    "SUBMODULE": "KIT-HYDRO CARBON INJECTION",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "49",
+    "SUBMODULE ADDRESS": "F3B11",
+    "SUBMODULE": "KIT-EXHAUST SYSTEM",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "49",
+    "SUBMODULE ADDRESS": "F3B12",
+    "SUBMODULE": "EXHAUST SYSTEM-INFO FIT DRG",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "50",
+    "SUBMODULE ADDRESS": "H1A14",
+    "SUBMODULE": "COOLING SYSTEM-VEHICLE LEVEL",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1A01",
+    "SUBMODULE": "WH DASHBOARD ",
+    "Location": "WIRING HARNESS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1A02",
+    "SUBMODULE": "WH FLOOR/ROOF /DOOR",
+    "Location": "WIRING HARNESS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1A03",
+    "SUBMODULE": "WH ENGINE-SENSOR",
+    "Location": "WIRING HARNESS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1A04",
+    "SUBMODULE": "WH ENGINE-POWER CONNECTION",
+    "Location": "WIRING HARNESS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1A05",
+    "SUBMODULE": "WH FRAME/FRONT CHASSIS ",
+    "Location": "WIRING HARNESS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1A06",
+    "SUBMODULE": "WH TAIL/REAR CHASSIS ",
+    "Location": "WIRING HARNESS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1A07",
+    "SUBMODULE": "WH GEAR BOX ",
+    "Location": "WIRING HARNESS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1A08",
+    "SUBMODULE": "WH ABS",
+    "Location": "WIRING HARNESS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1A09",
+    "SUBMODULE": "WH RPAS ",
+    "Location": "WIRING HARNESS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1A10",
+    "SUBMODULE": "WH DOSING/AFT ",
+    "Location": "WIRING HARNESS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1A11",
+    "SUBMODULE": "WH EGP ",
+    "Location": "WIRING HARNESS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1A12",
+    "SUBMODULE": "WH BATTERY CABLES POSITIVE/NEGATIVE",
+    "Location": "WIRING HARNESS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1A13",
+    "SUBMODULE": "WH BATTERY COMPARTMENT",
+    "Location": "WIRING HARNESS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1A14",
+    "SUBMODULE": "WH BUS BODY/LOAD BODY",
+    "Location": "WIRING HARNESS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1B01",
+    "SUBMODULE": "FUEL LEVEL SENSOR",
+    "Location": "SWITCHES"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1B02",
+    "SUBMODULE": "AUDIBLE WARNING SYSTEM",
+    "Location": "SWITCHES"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1B03",
+    "SUBMODULE": "NON CABIN SWITCHES",
+    "Location": "SWITCHES"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1B04",
+    "SUBMODULE": "DASHBOARD SWITCHES",
+    "Location": "SWITCHES"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1B05",
+    "SUBMODULE": "NON DASHBOARD SWITCHES",
+    "Location": "SWITCHES"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1B06",
+    "SUBMODULE": "STEERING SYSTEM SWITCHES",
+    "Location": "SWITCHES"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1C01",
+    "SUBMODULE": "BATTERY",
+    "Location": "BATTERY & CHARGING SYSTEM"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1C02",
+    "SUBMODULE": "WIPER MOTOR",
+    "Location": "BATTERY & CHARGING SYSTEM"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G1C03",
+    "SUBMODULE": "KIT-WASHER SYSTEM",
+    "Location": "BATTERY & CHARGING SYSTEM"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G2A01",
+    "SUBMODULE": "HEAD LAMP",
+    "Location": "LIGHTINGS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G2A02",
+    "SUBMODULE": "FOG LAMP ",
+    "Location": "LIGHTINGS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G2A03",
+    "SUBMODULE": "TURN INDICATOR",
+    "Location": "LIGHTINGS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G2A04",
+    "SUBMODULE": "DAY TIME RUNNING LAMP",
+    "Location": "LIGHTINGS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G2A05",
+    "SUBMODULE": "REFLEX REFLECTOR",
+    "Location": "LIGHTINGS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G2A06",
+    "SUBMODULE": "SIDE INDICATOR",
+    "Location": "LIGHTINGS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G2A07",
+    "SUBMODULE": "SIDE MARKER LAMP",
+    "Location": "LIGHTINGS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G2A08",
+    "SUBMODULE": "COMBINATION TAIL LAMP",
+    "Location": "LIGHTINGS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G2A09",
+    "SUBMODULE": "REGISTRATION PLATE LAMP",
+    "Location": "LIGHTINGS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G2A10",
+    "SUBMODULE": "ROOF LAMP",
+    "Location": "LIGHTINGS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G2A11",
+    "SUBMODULE": "DOOR/PUDDLE LAMP",
+    "Location": "LIGHTINGS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G2A12",
+    "SUBMODULE": "ENGINE LAMP/WORK AREA LAMP",
+    "Location": "LIGHTINGS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G2A13",
+    "SUBMODULE": "EOL LAMP",
+    "Location": "LIGHTINGS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G2A14",
+    "SUBMODULE": "AUXILLARY LAMP",
+    "Location": "LIGHTINGS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3A01",
+    "SUBMODULE": "DRIVER MONITORING SYSTEM",
+    "Location": "CONNECTIVITY"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3A02",
+    "SUBMODULE": "INTELLIGENT TRANSPORTATION SYSTEM-ITS",
+    "Location": "CONNECTIVITY"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3A03",
+    "SUBMODULE": "ON BOARD WI-FI",
+    "Location": "CONNECTIVITY"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3A04",
+    "SUBMODULE": "PEOPLE COUNTER VALIDATOR",
+    "Location": "CONNECTIVITY"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3A05",
+    "SUBMODULE": "TELEMATICS CONTROLLER",
+    "Location": "CONNECTIVITY"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3A06",
+    "SUBMODULE": "LOW COST BCM AND TCU",
+    "Location": "CONNECTIVITY"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3B01",
+    "SUBMODULE": "INSTRUMENT CLUSTER ",
+    "Location": "DASHBOARD"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3B02",
+    "SUBMODULE": "DIS AND PROJECTION DISPLAY",
+    "Location": "DASHBOARD"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3B03",
+    "SUBMODULE": "DISCRETE INDICATOR AND AUXILIARY GAUGES",
+    "Location": "DASHBOARD"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3B04",
+    "SUBMODULE": "IN-VEHICLE INFOTAINMENT-IVI,1 DIN",
+    "Location": "DASHBOARD"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3B05",
+    "SUBMODULE": "INVEHICLE INFOTAINMENT-2DIN/TOUCH SCREEN",
+    "Location": "DASHBOARD"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3B06",
+    "SUBMODULE": "VOICE RECOGNITION SYSTEM",
+    "Location": "DASHBOARD"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3B07",
+    "SUBMODULE": "VOICE MESSAGING SYSTEM,TEXT TO SPEECH",
+    "Location": "DASHBOARD"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3B08",
+    "SUBMODULE": "CHARGERS USB",
+    "Location": "DASHBOARD"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G3B09",
+    "SUBMODULE": "WIRELESS CHARGERS ",
+    "Location": "DASHBOARD"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A01",
+    "SUBMODULE": "EMS ECUS",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A02",
+    "SUBMODULE": "BRACKET AND COVER EMS ECU",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A03",
+    "SUBMODULE": "DOSING CONTROL UNIT",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A04",
+    "SUBMODULE": "BRACKET AND COVER DCU",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A05",
+    "SUBMODULE": "TRACTION CONTROLLER",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A06",
+    "SUBMODULE": "HECU",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A07",
+    "SUBMODULE": "INVERTER ",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A08",
+    "SUBMODULE": "DC DC CONVERTOR 10A",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A09",
+    "SUBMODULE": "DC DC CONVERTOR 1.5A",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A10",
+    "SUBMODULE": "TRANSFER CASE CONTROLLER",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A11",
+    "SUBMODULE": "TRANSMISSION ECU AMT AT",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A12",
+    "SUBMODULE": "STEERING CONTROLLER",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A13",
+    "SUBMODULE": "IMMOBILIZER AND RKE CONTROLLER",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A14",
+    "SUBMODULE": "AUXILIARY POWERTRAIN CONTROLLER",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A15",
+    "SUBMODULE": "VEHICLE SPEED SENSOR",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A16",
+    "SUBMODULE": "NEUTRAL POSITION SENSOR",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A17",
+    "SUBMODULE": "OIL PRESSURE SENSOR ",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A18",
+    "SUBMODULE": "STEERING ANGLE SENSOR",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A19",
+    "SUBMODULE": "AUXILIARY POWERTRAIN SENSOR",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4A20",
+    "SUBMODULE": "MOUNTING ADAPTOR FOR SENSORS",
+    "Location": "CONTROLLERS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B01",
+    "SUBMODULE": "PARK ASSIST SYSTEM-CAMERA BASED",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B02",
+    "SUBMODULE": "PARK ASSIST SYSTEM-SENSOR BASED",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B03",
+    "SUBMODULE": "BRAKE SYSTEM ECUS ABS ESC",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B04",
+    "SUBMODULE": "RETARDER ECU",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B05",
+    "SUBMODULE": "BRACKET AND COVER BRAKE CONTROLLER",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B06",
+    "SUBMODULE": "LDWS,LANE KEEP ASSIST",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B07",
+    "SUBMODULE": "FCWS,AEBS,ACC CONTROLLER",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B08",
+    "SUBMODULE": "E MIRROR",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B09",
+    "SUBMODULE": "BLIND SPOT DETECTION",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B10",
+    "SUBMODULE": "V2V/V2X/V2P ",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B11",
+    "SUBMODULE": "AV CONTROLLER",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B12",
+    "SUBMODULE": "FIRE DETECTION CONTROLLER SYSTEM",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B13",
+    "SUBMODULE": "AIRBAG ECU",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B14",
+    "SUBMODULE": "TYRE PRESSURE MONITORING CONTROLLER",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B15",
+    "SUBMODULE": "ECAS",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B16",
+    "SUBMODULE": "BRAKE LINER WEAR INDICATOR CONTROLLER",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B17",
+    "SUBMODULE": "CLUTCH WEAR INDICATOR SYSTEM",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B18",
+    "SUBMODULE": "TILT CONTROLLER",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B19",
+    "SUBMODULE": "YAW RATE SENSOR ",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B20",
+    "SUBMODULE": "INTELLIGENT BATTERY SENSOR-24V",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B21",
+    "SUBMODULE": "BRAKE LINER SENSOR",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B22",
+    "SUBMODULE": "AIR PRESSURE SENSOR FOR GAUGES",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B23",
+    "SUBMODULE": "AIR PRESSURE SENSOR FOR CONTROLLER",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B24",
+    "SUBMODULE": "WHEEL SPEED SENSOR",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4B25",
+    "SUBMODULE": "AUXILLIARY SAFETY CONTROLLER/SENSOR",
+    "Location": "SAFETY CONTROLS"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4C01",
+    "SUBMODULE": "VEHICLE ELECTRONIC CONTROLLER UNIT",
+    "Location": "VEHICLE FUNCTION CONTROLLER"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4C02",
+    "SUBMODULE": "BODY CONTROL MODULE",
+    "Location": "VEHICLE FUNCTION CONTROLLER"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4C03",
+    "SUBMODULE": "WIPER CONTROLLER",
+    "Location": "VEHICLE FUNCTION CONTROLLER"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4C04",
+    "SUBMODULE": "FLASHER 24V AND 12V",
+    "Location": "VEHICLE FUNCTION CONTROLLER"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4C05",
+    "SUBMODULE": "GEAR SHIFT ADVISOR CONTROLLER",
+    "Location": "VEHICLE FUNCTION CONTROLLER"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4C06",
+    "SUBMODULE": "GLOW PLUG CONTROLLER",
+    "Location": "VEHICLE FUNCTION CONTROLLER"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4C07",
+    "SUBMODULE": "GAS LEAK DETECTION SYSTEM",
+    "Location": "VEHICLE FUNCTION CONTROLLER"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4C08",
+    "SUBMODULE": "GATEWAY DOMAIN CONTROLLER UNIT",
+    "Location": "VEHICLE FUNCTION CONTROLLER"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4C09",
+    "SUBMODULE": "POWER WINDOW CONTROLLER",
+    "Location": "VEHICLE FUNCTION CONTROLLER"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "G4C10",
+    "SUBMODULE": "AUXILLIARY VEHICLE FUNCTION CONTROLLERS",
+    "Location": "VEHICLE FUNCTION CONTROLLER"
+  },
+  {
+    "DESIGN GROUP": "54",
+    "SUBMODULE ADDRESS": "H3A04",
+    "SUBMODULE": "VECU",
+    "Location": "VEHICLE FUNCTION CONTROLLER"
+  },
+  {
+    "DESIGN GROUP": "55",
+    "SUBMODULE ADDRESS": "D1C08",
+    "SUBMODULE": "DECALS,REFLECTIVE TAPE",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "55",
+    "SUBMODULE ADDRESS": "D1C09",
+    "SUBMODULE": "MASCOTS,EMBLEMS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "58",
+    "SUBMODULE ADDRESS": "K1A01",
+    "SUBMODULE": "VIN PLATE",
+    "Location": "TOOLS & ACCESSORIES"
+  },
+  {
+    "DESIGN GROUP": "58",
+    "SUBMODULE ADDRESS": "K1A02",
+    "SUBMODULE": "TRANSFER LABEL",
+    "Location": "TOOLS & ACCESSORIES"
+  },
+  {
+    "DESIGN GROUP": "58",
+    "SUBMODULE ADDRESS": "K1A03",
+    "SUBMODULE": "KIT-TOOLS",
+    "Location": "TOOLS & ACCESSORIES"
+  },
+  {
+    "DESIGN GROUP": "58",
+    "SUBMODULE ADDRESS": "K1A04",
+    "SUBMODULE": "OWNERS MANUAL ",
+    "Location": "TOOLS & ACCESSORIES"
+  },
+  {
+    "DESIGN GROUP": "58",
+    "SUBMODULE ADDRESS": "K1A05",
+    "SUBMODULE": "KIT-FIRST AID AND TRIANGLE",
+    "Location": "TOOLS & ACCESSORIES"
+  },
+  {
+    "DESIGN GROUP": "58",
+    "SUBMODULE ADDRESS": "K1A06",
+    "SUBMODULE": "TOOLS AND ACCESSORIES-INFO FIT DRG",
+    "Location": "TOOLS & ACCESSORIES"
+  },
+  {
+    "DESIGN GROUP": "58",
+    "SUBMODULE ADDRESS": "K1A07",
+    "SUBMODULE": "WHEEL CHOCK",
+    "Location": "TOOLS & ACCESSORIES"
+  },
+  {
+    "DESIGN GROUP": "58",
+    "SUBMODULE ADDRESS": "K1A08",
+    "SUBMODULE": "ADVANCE WARNING TRIANGLE",
+    "Location": "TOOLS & ACCESSORIES"
+  },
+  {
+    "DESIGN GROUP": "58",
+    "SUBMODULE ADDRESS": "K1A09",
+    "SUBMODULE": "JACK",
+    "Location": "TOOLS & ACCESSORIES"
+  },
+  {
+    "DESIGN GROUP": "58",
+    "SUBMODULE ADDRESS": "K1A10",
+    "SUBMODULE": "FIRE EXTINGUISHER",
+    "Location": "TOOLS & ACCESSORIES"
+  },
+  {
+    "DESIGN GROUP": "58",
+    "SUBMODULE ADDRESS": "K1A11",
+    "SUBMODULE": "FDSS",
+    "Location": "TOOLS & ACCESSORIES"
+  },
+  {
+    "DESIGN GROUP": "60",
+    "SUBMODULE ADDRESS": "D1A18",
+    "SUBMODULE": "FES STRUCTURE",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "60",
+    "SUBMODULE ADDRESS": "D1A20",
+    "SUBMODULE": "FULLY AND SEMI FORWARD ENGINE HOUSE",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "60",
+    "SUBMODULE ADDRESS": "D1A21",
+    "SUBMODULE": "BOLTED PANELS AND BRACKETS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "60",
+    "SUBMODULE ADDRESS": "D1A22",
+    "SUBMODULE": "SEALANTS,PADS AND MELT SHEETS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "60",
+    "SUBMODULE ADDRESS": "D1A23",
+    "SUBMODULE": "CO2/SPOT WELD\u00a0SUB MODULE",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "60",
+    "SUBMODULE ADDRESS": "D9W01",
+    "SUBMODULE": "BIW PAINT COSUMABLES-MFG",
+    "Location": "CABIN"
+  },
+  {
+    "DESIGN GROUP": "60",
+    "SUBMODULE ADDRESS": "D9X01",
+    "SUBMODULE": "BIW ASSY WITH DOORS-MFG",
+    "Location": "CABIN"
+  },
+  {
+    "DESIGN GROUP": "60",
+    "SUBMODULE ADDRESS": "D9Y01",
+    "SUBMODULE": "PAINTED BODY SHELL-MFG",
+    "Location": "CABIN"
+  },
+  {
+    "DESIGN GROUP": "60",
+    "SUBMODULE ADDRESS": "D9Z01",
+    "SUBMODULE": "FITTED CABIN ASSY-MFG",
+    "Location": "CABIN"
+  },
+  {
+    "DESIGN GROUP": "60",
+    "SUBMODULE ADDRESS": "F9Z01",
+    "SUBMODULE": "ROLLING CHASSIS,NON-DRIVEABLE-MFG",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "61",
+    "SUBMODULE ADDRESS": "D1A01",
+    "SUBMODULE": "UNDER BODY SUB STRUCTURE",
+    "Location": "BIW"
+  },
+  {
+    "DESIGN GROUP": "61",
+    "SUBMODULE ADDRESS": "D1A02",
+    "SUBMODULE": "UNDER BODY FLOOR",
+    "Location": "BIW"
+  },
+  {
+    "DESIGN GROUP": "61",
+    "SUBMODULE ADDRESS": "D1A03",
+    "SUBMODULE": "UNDER BODY REAR EXTENSION",
+    "Location": "BIW"
+  },
+  {
+    "DESIGN GROUP": "61",
+    "SUBMODULE ADDRESS": "D1A04",
+    "SUBMODULE": "UNDER BODY REAR EXTENSION SUB STRUCTURE",
+    "Location": "BIW"
+  },
+  {
+    "DESIGN GROUP": "62",
+    "SUBMODULE ADDRESS": "D1A05",
+    "SUBMODULE": "PANEL FIRE WALL",
+    "Location": "BIW"
+  },
+  {
+    "DESIGN GROUP": "62",
+    "SUBMODULE ADDRESS": "D1A06",
+    "SUBMODULE": "FIRE WALL STRUCTURE",
+    "Location": "BIW"
+  },
+  {
+    "DESIGN GROUP": "64",
+    "SUBMODULE ADDRESS": "D1A07",
+    "SUBMODULE": "PANEL REAR WALL",
+    "Location": "BIW"
+  },
+  {
+    "DESIGN GROUP": "64",
+    "SUBMODULE ADDRESS": "D1A08",
+    "SUBMODULE": "REAR WALL STRUCTURE",
+    "Location": "BIW"
+  },
+  {
+    "DESIGN GROUP": "65",
+    "SUBMODULE ADDRESS": "D1A14",
+    "SUBMODULE": "PANEL ROOF FRONT",
+    "Location": "BIW"
+  },
+  {
+    "DESIGN GROUP": "65",
+    "SUBMODULE ADDRESS": "D1A15",
+    "SUBMODULE": "ROOF STRUCTURE FRONT",
+    "Location": "BIW"
+  },
+  {
+    "DESIGN GROUP": "65",
+    "SUBMODULE ADDRESS": "D1A16",
+    "SUBMODULE": "PANEL ROOF REAR",
+    "Location": "BIW"
+  },
+  {
+    "DESIGN GROUP": "65",
+    "SUBMODULE ADDRESS": "D1A17",
+    "SUBMODULE": "ROOF STRUCTURE REAR",
+    "Location": "BIW"
+  },
+  {
+    "DESIGN GROUP": "66",
+    "SUBMODULE ADDRESS": "D2C11",
+    "SUBMODULE": "RAISED FLOORS",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "67",
+    "SUBMODULE ADDRESS": "D1B13",
+    "SUBMODULE": "WINDSHIELD GLASS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "67",
+    "SUBMODULE ADDRESS": "D1B14",
+    "SUBMODULE": "REAR WALL GLASS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "67",
+    "SUBMODULE ADDRESS": "D1B15",
+    "SUBMODULE": "SIDE QUARTER GLASS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "68",
+    "SUBMODULE ADDRESS": "D2A01",
+    "SUBMODULE": "STEERING WHEEL",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "68",
+    "SUBMODULE ADDRESS": "D2A02",
+    "SUBMODULE": "DASHBOARD ASSY",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "68",
+    "SUBMODULE ADDRESS": "D2A03",
+    "SUBMODULE": "AIR VENT ASSY",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "68",
+    "SUBMODULE ADDRESS": "D2A04",
+    "SUBMODULE": "CCB ASSY",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "68",
+    "SUBMODULE ADDRESS": "D2A05",
+    "SUBMODULE": "CONSOLE ASSY",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "68",
+    "SUBMODULE ADDRESS": "D2A07",
+    "SUBMODULE": "FASCIA",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "68",
+    "SUBMODULE ADDRESS": "D2A08",
+    "SUBMODULE": "AC/BLOWER DUCTING",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "68",
+    "SUBMODULE ADDRESS": "D2A09",
+    "SUBMODULE": "SHROUDS AND BEZELS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "68",
+    "SUBMODULE ADDRESS": "D2A10",
+    "SUBMODULE": "NACELLE AND COMBI SWITCH COVERS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "68",
+    "SUBMODULE ADDRESS": "D2A11",
+    "SUBMODULE": "FRONT END COVERS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "68",
+    "SUBMODULE ADDRESS": "D2B01",
+    "SUBMODULE": "MATS AND CARPETS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "68",
+    "SUBMODULE ADDRESS": "D2B02",
+    "SUBMODULE": "INSULATION",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "69",
+    "SUBMODULE ADDRESS": "D2B06",
+    "SUBMODULE": "SCUFF PLATES",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "69",
+    "SUBMODULE ADDRESS": "D2B07",
+    "SUBMODULE": "HANDLES",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "69",
+    "SUBMODULE ADDRESS": "D2B21",
+    "SUBMODULE": "BELLOW",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "69",
+    "SUBMODULE ADDRESS": "D2B23",
+    "SUBMODULE": "AIR DEFLECTOR",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "69",
+    "SUBMODULE ADDRESS": "D2B24",
+    "SUBMODULE": "DEAD PEDALS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "69\u00a0",
+    "SUBMODULE ADDRESS": "D2B09",
+    "SUBMODULE": "HEADLINER",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "69\u00a0",
+    "SUBMODULE ADDRESS": "D2B10",
+    "SUBMODULE": "SIDE WALL TRIMS ",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "69\u00a0",
+    "SUBMODULE ADDRESS": "D2B15",
+    "SUBMODULE": "PILLAR TRIMS",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "69\u00a0",
+    "SUBMODULE ADDRESS": "D2B17",
+    "SUBMODULE": "REAR WALL TRIMS",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "69\u00a0",
+    "SUBMODULE ADDRESS": "D2B19",
+    "SUBMODULE": "UTILITY POCKETS",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "A1B01",
+    "SUBMODULE": "LOAD BODY ASSY",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "A1B02",
+    "SUBMODULE": "SUPD ASSY",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "A1B03",
+    "SUBMODULE": "SPRAY SUPPRESSION MAT",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "A1B04",
+    "SUBMODULE": "RPAS MOUNTING BKT",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "A1B05",
+    "SUBMODULE": "KIT-MUDGUARD ASSY",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "A1B06",
+    "SUBMODULE": "KIT-BALATA",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "A1B07",
+    "SUBMODULE": "KIT-U BOLT/CLITS/LB MOUNTING",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "A1B08",
+    "SUBMODULE": "KIT-CONSUMABLES/HARDWARE\u2019S/ACCESSORY MTG",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "A1C01",
+    "SUBMODULE": "CONTAINER",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "A1C02",
+    "SUBMODULE": "REFER VAN",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "A1C03",
+    "SUBMODULE": "SPECIAL APPLICATIONS",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "A1C04",
+    "SUBMODULE": "SPECIAL APPLICATIONS-ACCESSORIES",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "A1C05",
+    "SUBMODULE": "SPECIAL APPLICATIONS-MOUNTINGS",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "A9Z01",
+    "SUBMODULE": "LOADBODY FITTED ASSY MFG",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "D1D01",
+    "SUBMODULE": "SIDE PANEL ASSY",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "D1D02",
+    "SUBMODULE": "FLOOR STRUCTURE",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "D1D03",
+    "SUBMODULE": "FRONT PANEL ASSY",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "D1D04",
+    "SUBMODULE": "TAILGATE ASSY",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "D1D05",
+    "SUBMODULE": "LOAD GUARD",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "D1D06",
+    "SUBMODULE": "KIT-FITMENT",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "D1D07",
+    "SUBMODULE": "HIGH DECK TUBULAR STRUCTURE ",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "70",
+    "SUBMODULE ADDRESS": "D1D08",
+    "SUBMODULE": "SEALANTS ",
+    "Location": "LOAD BODY"
+  },
+  {
+    "DESIGN GROUP": "72",
+    "SUBMODULE ADDRESS": "D1B01",
+    "SUBMODULE": "FRONT DOOR ASSY,LH-RH",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "72",
+    "SUBMODULE ADDRESS": "D1B05",
+    "SUBMODULE": "DOOR CHECK MECHANISM",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "72",
+    "SUBMODULE ADDRESS": "D1B06",
+    "SUBMODULE": "CLOSURE HINGE",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "72",
+    "SUBMODULE ADDRESS": "D1B07",
+    "SUBMODULE": "INNER HANDLE",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "72",
+    "SUBMODULE ADDRESS": "D1B08",
+    "SUBMODULE": "LATCH,STRIKER AND LOCK MECHANISM",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "72",
+    "SUBMODULE ADDRESS": "D1B09",
+    "SUBMODULE": "OUTER HANDLE",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "72",
+    "SUBMODULE ADDRESS": "D1B10",
+    "SUBMODULE": "DOOR GLASS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "72",
+    "SUBMODULE ADDRESS": "D1B11",
+    "SUBMODULE": "WEATHER-STRIPS AND GLASS RUN MOULDS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "72",
+    "SUBMODULE ADDRESS": "D1B12",
+    "SUBMODULE": "WINDOW REGULATOR MECHANISM",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "72",
+    "SUBMODULE ADDRESS": "D1B16",
+    "SUBMODULE": "DOOR AND HOOD SEALING SYSTEM",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "72",
+    "SUBMODULE ADDRESS": "D2B11",
+    "SUBMODULE": "TRIMS-FRONT DOOR",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "73",
+    "SUBMODULE ADDRESS": "D1B02",
+    "SUBMODULE": "REAR DOOR ASSY,LH-RH",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "74",
+    "SUBMODULE ADDRESS": "D1B03",
+    "SUBMODULE": "TAILGATE DOOR ASSY ",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "74",
+    "SUBMODULE ADDRESS": "D2B16",
+    "SUBMODULE": "TAILGATE TRIMS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "75",
+    "SUBMODULE ADDRESS": "D1B04",
+    "SUBMODULE": "SHEET METAL FRONT FLAPS AND BONNETS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "75",
+    "SUBMODULE ADDRESS": "D1B20",
+    "SUBMODULE": "STAY RODS AND GAS-STUDS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "81",
+    "SUBMODULE ADDRESS": "D1B17",
+    "SUBMODULE": "ROOF BEADING",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "81",
+    "SUBMODULE ADDRESS": "D1B21",
+    "SUBMODULE": "MIRRORS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "81",
+    "SUBMODULE ADDRESS": "D1B25",
+    "SUBMODULE": "BIW SEALING RUBBER PLUGS AND GROMMETS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "81",
+    "SUBMODULE ADDRESS": "D1C04",
+    "SUBMODULE": "FRESH AIR INTAKE GRILL",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "81",
+    "SUBMODULE ADDRESS": "D1C18",
+    "SUBMODULE": "MISC EXTERIOR FITMENTS AND ACCESSORIES",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "81",
+    "SUBMODULE ADDRESS": "D2B03",
+    "SUBMODULE": "SUN VISORS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "81",
+    "SUBMODULE ADDRESS": "D2B04",
+    "SUBMODULE": "CURTAIN HOOKS/HANGERS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "81",
+    "SUBMODULE ADDRESS": "D2B05",
+    "SUBMODULE": "PARTITIONS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "81",
+    "SUBMODULE ADDRESS": "D2B08",
+    "SUBMODULE": "COVERS-ROOF AC/BLOWER AND MISC",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "81",
+    "SUBMODULE ADDRESS": "D2B25",
+    "SUBMODULE": "MISC INTERIOR FITMENTS AND ACCESSORIES",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "81\u00a0",
+    "SUBMODULE ADDRESS": "D2B13",
+    "SUBMODULE": "OVERHEAD LUGGAGE CARRIER",
+    "Location": "UNCATEGORIZED"
+  },
+  {
+    "DESIGN GROUP": "82",
+    "SUBMODULE ADDRESS": "D1B18",
+    "SUBMODULE": "WIPER BLADES",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "82",
+    "SUBMODULE ADDRESS": "D1B19",
+    "SUBMODULE": "WIPER LINKAGES AND MOTOR ASSY",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "83",
+    "SUBMODULE ADDRESS": "D3A01",
+    "SUBMODULE": "FORCE VENTILATION ASSY-BLOWER UNIT",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "83",
+    "SUBMODULE ADDRESS": "D3A02",
+    "SUBMODULE": "COMPRESSOR ASSY ",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "83",
+    "SUBMODULE ADDRESS": "D3A03",
+    "SUBMODULE": "CONDENSER ASSY ",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "83",
+    "SUBMODULE ADDRESS": "D3A04",
+    "SUBMODULE": "CONTROL PANEL",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "83",
+    "SUBMODULE ADDRESS": "D3A05",
+    "SUBMODULE": "AC UNIT",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "83",
+    "SUBMODULE ADDRESS": "D3A06",
+    "SUBMODULE": "HVAC UNIT",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "83",
+    "SUBMODULE ADDRESS": "D3A07",
+    "SUBMODULE": "HEATING DEMISTING UNIT ",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "83",
+    "SUBMODULE ADDRESS": "D3A08",
+    "SUBMODULE": "BATTERY COOLING UNIT-BCS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "83",
+    "SUBMODULE ADDRESS": "D3A09",
+    "SUBMODULE": "HEATER PIPING",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "83",
+    "SUBMODULE ADDRESS": "D3A10",
+    "SUBMODULE": "AC PIPING ",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "83",
+    "SUBMODULE ADDRESS": "D4A04",
+    "SUBMODULE": "AMBULANCE-FANS AND BLOWERS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D1C01",
+    "SUBMODULE": "FRONT BUMPER",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D1C02",
+    "SUBMODULE": "REAR BUMPER",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D1C03",
+    "SUBMODULE": "AIR ESCAPE VALVE",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D1C05",
+    "SUBMODULE": "FOOT STEP",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D1C06",
+    "SUBMODULE": "MAIN FRONT GRILL",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D1C07",
+    "SUBMODULE": "TRUST BAR",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D1C10",
+    "SUBMODULE": "LEAF SCREEN",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D1C11",
+    "SUBMODULE": "FRONT FLAP ASSY,PLASTIC",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D1C12",
+    "SUBMODULE": "SIDE FENDER,PLASTIC",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D1C13",
+    "SUBMODULE": "AEROCORNER,PLASTIC",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D1C14",
+    "SUBMODULE": "MUDGUARD,MUD FLAP AND SPRAY SUPPRESSION",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D1C15",
+    "SUBMODULE": "DOOR AND WHEEL-ARCH MOULDINGS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D2B20",
+    "SUBMODULE": "DUST SHIELD-INCL FASTENERS/NOISE SHEILD",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D2B22",
+    "SUBMODULE": "ENGINE HOOD",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "88",
+    "SUBMODULE ADDRESS": "D4A02",
+    "SUBMODULE": "AMBULANCE-DECALS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "89",
+    "SUBMODULE ADDRESS": "D1B22",
+    "SUBMODULE": "CAB MOUNTING FRONT",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "89",
+    "SUBMODULE ADDRESS": "D1B23",
+    "SUBMODULE": "CAB MOUNTING REAR",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "89",
+    "SUBMODULE ADDRESS": "D1B24",
+    "SUBMODULE": "CAB TILTING MECHANISM",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "91",
+    "SUBMODULE ADDRESS": "D2C01",
+    "SUBMODULE": "DRIVER SEAT",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "91",
+    "SUBMODULE ADDRESS": "D2C02",
+    "SUBMODULE": "DRIVER SEAT RISER",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "91",
+    "SUBMODULE ADDRESS": "D2D06",
+    "SUBMODULE": "OCCUPANT DETECTION SYSTEM",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "92",
+    "SUBMODULE ADDRESS": "D2C06",
+    "SUBMODULE": "PASSANGER SEATS",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "92",
+    "SUBMODULE ADDRESS": "D2C07",
+    "SUBMODULE": "RISER PASSANGER SEATS ",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "92",
+    "SUBMODULE ADDRESS": "D4A01",
+    "SUBMODULE": "AMBULANCE-ATTENDER SEAT",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "92",
+    "SUBMODULE ADDRESS": "D4A03",
+    "SUBMODULE": "AMBULANCE-DOCTOR SEAT",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "93",
+    "SUBMODULE ADDRESS": "D2C05",
+    "SUBMODULE": "TUMBLE SEATS ",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "94",
+    "SUBMODULE ADDRESS": "D2C03",
+    "SUBMODULE": "CO-DRIVER SEAT",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "94",
+    "SUBMODULE ADDRESS": "D2C04",
+    "SUBMODULE": "CO-DRIVER SEAT RISER",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "97",
+    "SUBMODULE ADDRESS": "D2D01",
+    "SUBMODULE": "SEAT BELT ASSY,DRIVER",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "97",
+    "SUBMODULE ADDRESS": "D2D02",
+    "SUBMODULE": "SEAT BELT ASSY,CO-DRIVER",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "97",
+    "SUBMODULE ADDRESS": "D2D03",
+    "SUBMODULE": "SEAT BELT PASSENGER",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "97",
+    "SUBMODULE ADDRESS": "D2D04",
+    "SUBMODULE": "AIR BAGS,DRIVER",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "97",
+    "SUBMODULE ADDRESS": "D2D05",
+    "SUBMODULE": "KIT-SEAT BELT,RPLL",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "97",
+    "SUBMODULE ADDRESS": "D2D07",
+    "SUBMODULE": "AIR BAGS,PASSENGER",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "97",
+    "SUBMODULE ADDRESS": "D2D08",
+    "SUBMODULE": "SIDE AIR BAG",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "97",
+    "SUBMODULE ADDRESS": "D2D09",
+    "SUBMODULE": "CURTAIN AIR BAG",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "97",
+    "SUBMODULE ADDRESS": "D2D10",
+    "SUBMODULE": "KNEE AIR BAG",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "98",
+    "SUBMODULE ADDRESS": "D2C08",
+    "SUBMODULE": "BERTH LOWER",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "98",
+    "SUBMODULE ADDRESS": "D2C09",
+    "SUBMODULE": "BERTH UPPER",
+    "Location": "R40"
+  },
+  {
+    "DESIGN GROUP": "98",
+    "SUBMODULE ADDRESS": "D2C10",
+    "SUBMODULE": "FOAM BLOCKS",
+    "Location": "R40"
+  }
+]
